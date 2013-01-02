@@ -1,0 +1,42 @@
+html {
+  color:#666;
+  background-color: rgb(241,241,241);
+  font-family: courier, monospace;
+  font-size: 12px;
+  line-height: 1.4em;
+}
+
+body {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+a {
+  color: #993333;
+}
+
+* {
+  font-size: 1em;
+}
+
+h1 {
+  color: rgb(241,241,241);
+  background-color: rgb(41,41,41);
+  display: inline-block;
+  padding: 1em 1em 1em 1.5em;
+  font-family: futura, 'century gothic', sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 4em 0 2em;
+  letter-spacing: .5em;
+  -webkit-transform: rotate(-6deg) skew(-6deg);
+}
+
+h2,h3,h4,h5,h6 {
+  font-weight: normal;
+  color: black;
+}
+
+#actions li {
+  margin-bottom: 2.8em;
+}
