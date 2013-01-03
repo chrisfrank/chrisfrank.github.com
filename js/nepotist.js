@@ -4,6 +4,7 @@ nptst.TUMBLR_URL = "http://api.tumblr.com/v2/blog/thenepotist.tumblr.com/posts"
 
 nptst.tumblrParsr = {
   fetch: function(){
+    self = this
     $.ajax({
       url: nptst.TUMBLR_URL,
       dataType: "jsonp",
@@ -11,15 +12,25 @@ nptst.tumblrParsr = {
         api_key: nptst.TUMBLR_KEY,
       },
       success: function(res){
-        console.log(res.response.posts)
+        self.write(res.response.posts)
       }
     })
   },
-  write: function(){
-    //
+  write: function(posts){
+    $table = $('<table />')
+    $target = $('<tr />').appendTo($table)
+    $table.appendTo('#tumblr')
+    $(posts).each(function(){
+      if (this.type == "photo") {
+        photo = document.createElement('img')
+        photo.src = this.photos[0].alt_sizes[1].url
+        $link = $('<a href="' + this.post_url + '" />').append(photo)
+        $("<td />").append($link).appendTo($target)
+      }
+    })
   },
   init: function(){
-    this.fetch()
+    if (!!document.getElementById('tumblr')) { this.fetch() }
   }
 }
 

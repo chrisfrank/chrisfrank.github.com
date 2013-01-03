@@ -6,9 +6,12 @@ html {
   line-height: 1.4em;
 }
 
-body {
-  max-width: 640px;
+body { margin: 0; padding: 0; }
+
+.sized {
+  max-width: 620px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 a {
@@ -39,4 +42,30 @@ h2,h3,h4,h5,h6 {
 
 #actions li {
   margin-bottom: 2.8em;
+}
+
+#tumblr {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-top: 5.6em;
+}
+
+#tumblr table {
+  border-collapse: collapse;
+}
+
+#tumblr td {
+  padding: 0;
+}
+
+#tumblr a {
+  display: block;
+  padding-right: 1px;
+}
+
+#tumblr img {
+  height: 24em;
+  width: auto;
+  display: block;
 }
