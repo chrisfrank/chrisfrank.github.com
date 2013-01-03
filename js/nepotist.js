@@ -32,10 +32,15 @@ nptst.tumblrParsr = {
       'Tumblr &gt;&gt;</a>').appendTo($target)
   },
   init: function(){
-    if (!!document.getElementById('tumblr')) { this.fetch() }
+    if (!!document.getElementById('tumblr')) {
+      self = this
+      $(window).one('scroll',function(){
+        self.fetch()
+      })
+    }
   }
 }
 
-$(window).one('scroll', function(){
+$(document).ready(function(){
   nptst.tumblrParsr.init()
 })
