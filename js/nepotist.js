@@ -28,6 +28,8 @@ nptst.tumblrParsr = {
         $("<td />").append($link).appendTo($target)
       }
     })
+    $('<td class="link" />').append('<a href="http://thenepotist.tumblr.com">' +
+      'Tumblr &gt;&gt;</a>').appendTo($target)
   },
   init: function(){
     if (!!document.getElementById('tumblr')) { this.fetch() }

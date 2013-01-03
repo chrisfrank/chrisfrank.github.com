@@ -54,10 +54,24 @@ h2,h3,h4,h5,h6 {
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
   margin-top: 5.6em;
+  background-color: rgb(41,41,41);
+}
+
+#tumblr table:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 1em black;
+  pointer-events: none;
 }
 
 #tumblr table {
   border-collapse: collapse;
+  position: relative;
 }
 
 #tumblr td {
@@ -67,6 +81,17 @@ h2,h3,h4,h5,h6 {
 #tumblr a {
   display: block;
   padding-right: 1px;
+}
+
+#tumblr .link {
+  background-color: rgb(41,41,41);
+}
+
+#tumblr .link a {
+  text-decoration: none;
+  padding: 0 1.4em;
+  white-space: nowrap;
+  color: rgb(241,241,241);
 }
 
 #tumblr img {
