@@ -36,6 +36,6 @@ nptst.tumblrParsr = {
   }
 }
 
-$(document).ready(function(){
+$(window).one('scroll', function(){
   nptst.tumblrParsr.init()
 })
