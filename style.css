@@ -21,6 +21,9 @@ a {
 * {
   font-size: 1em;
 }
+#header {
+  margin-bottom: 2.8em;
+}
 
 h1 {
   color: rgb(241,241,241);
@@ -37,6 +40,7 @@ h1 {
   -ms-transform: rotate(-6deg) skew(-6deg);
   -o-transform: rotate(-6deg) skew(-6deg);
   transform: rotate(-6deg) skew(-6deg);
+  line-height: 1em;
 }
 
 h2,h3,h4,h5,h6 {
@@ -108,5 +112,5 @@ h2,h3,h4,h5,h6 {
 }
 
 @media (max-width: 400px) {
-  #header { text-align: center; margin-bottom: 2.8em; }
+  #header { text-align: center; }
 }
