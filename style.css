@@ -33,6 +33,10 @@ h1 {
   margin: 4em 0 2em;
   letter-spacing: .5em;
   -webkit-transform: rotate(-6deg) skew(-6deg);
+  -moz-transform: rotate(-6deg) skew(-6deg);
+  -ms-transform: rotate(-6deg) skew(-6deg);
+  -o-transform: rotate(-6deg) skew(-6deg);
+  transform: rotate(-6deg) skew(-6deg);
 }
 
 h2,h3,h4,h5,h6 {
@@ -48,6 +52,7 @@ h2,h3,h4,h5,h6 {
   width: 100%;
   overflow-x: auto;
   overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
   margin-top: 5.6em;
 }
 
