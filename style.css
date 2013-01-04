@@ -60,6 +60,7 @@ h2,h3,h4,h5,h6 {
   margin-top: 5.6em;
   background-color: rgb(41,41,41);
   height: 24em;
+  border-bottom: 1px solid black;
 }
 
 #tumblr table:after {
