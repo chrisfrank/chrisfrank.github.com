@@ -8,10 +8,11 @@ html {
 
 body { margin: 0; padding: 0; }
 
-#header, .home > ol {
+#header, .home > ol, body.text > * {
   max-width: 620px;
-  margin: 0 auto;
   padding: 0 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
@@ -42,6 +43,8 @@ h1 {
   transform: rotate(-6deg) skew(-6deg);
   line-height: 1em;
 }
+
+h1 a { color: rgb(241,241,241); text-decoration: none; }
 
 h2,h3,h4,h5,h6 {
   font-weight: normal;
@@ -111,6 +114,10 @@ h2,h3,h4,h5,h6 {
   width: auto;
   display: block;
 }
+
+body.text h2 { text-transform: uppercase; margin-bottom: 2.8em; }
+body.text h3 { text-decoration: underline; }
+body.text ol { margin-bottom: 2.4em; }
 
 @media (max-width: 400px) {
   #header { text-align: center; }
