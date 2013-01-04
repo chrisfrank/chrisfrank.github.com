@@ -8,7 +8,7 @@ html {
 
 body { margin: 0; padding: 0; }
 
-.sized {
+#header, .home > ol {
   max-width: 620px;
   margin: 0 auto;
   padding: 0 10px;
@@ -48,7 +48,7 @@ h2,h3,h4,h5,h6 {
   color: black;
 }
 
-#actions li {
+.home > ol > li {
   margin-bottom: 2.8em;
 }
 
