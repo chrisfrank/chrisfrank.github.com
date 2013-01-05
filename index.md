@@ -15,7 +15,7 @@ layout: home
     Our next show is
     1/16/13 at [The Bowery Electric](http://www.theboweryelectric.com) in NYC.
 
-    View the [full calendar](/shows).
+    View the [full calendar](/gigs.html).
 
 4. ## Read.
     Peruse [lyrics](/lyrics),
@@ -26,6 +26,8 @@ layout: home
     The Nepotist is a band from New York, NY.
     Chris Frank plays guitar and sings. Hayden Frank plays bass and sings.
     They are brothers, not married. Dana Billings drums.
+
+    Need more? Here's [everything we could think of](/info.html).
 
 6. ## Contact
     Chris Frank  

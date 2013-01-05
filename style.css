@@ -63,6 +63,10 @@ h2,h3,h4,h5,h6 {
   color: black;
 }
 
+li {
+  margin-bottom: .4em;
+}
+
 .home > ol > li {
   margin-bottom: 2.8em;
 }
