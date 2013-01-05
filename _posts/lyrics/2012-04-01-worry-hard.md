@@ -3,6 +3,7 @@ title: Worry Hard
 categories: lyrics
 permalink: /lyrics/worry-hard.html
 layout: text
+bandcamp_link: http://music.thenepotist.com/track/worry-hard
 ---
 
 When I worry, I never worry for you  

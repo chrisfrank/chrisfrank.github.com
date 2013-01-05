@@ -18,7 +18,7 @@ layout: home
     View the [full calendar](/shows).
 
 4. ## Read.
-    Peruse [lyrics](/lyrics.html),
+    Peruse [lyrics](/lyrics),
     sporadically-updated [dispatches](/dispatches),
     or both.
 
