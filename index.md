@@ -27,7 +27,7 @@ layout: home
     Chris Frank plays guitar and sings. Hayden Frank plays bass and sings.
     They are brothers, not married. Dana Billings drums.
 
-    Need more? Here's [our press kit](/info.html).
+    Need more? Here's [our press kit](/presskit.html).
 
 6. ## Contact
     Chris Frank  

@@ -2,14 +2,14 @@
 title: Gigs
 layout: text
 ---
+
 - *Monday, 2/4/13* - Rockwood Music Hall, 11pm, Manhattan
 - *Wednesday, 1/16/13* - The Bowery Electric, Manhattan
 - *Saturday, 12/22* - Rockwood Music Hall, 4pm, Manhattan
 - *Friday, 12/21* - Pianos, 8:30pm, Manhattan
 - *Monday, 12/17* - The Wayland, 9pm, Manhattan
 - *Monday, 12/10* - The Wayland, 9pm, Manhattan
-- *Thursday, 12/6* - Paper Box, 7:45pm, 
-Brooklyn
+- *Thursday, 12/6* - Paper Box, 7:45pm, Brooklyn
 - *Monday, 12/3* - The Wayland, 9pm, Manhattan
 - *Saturday, 11/10* - VBar St Mark's, 12pm, Manhattan
 - *Sunday, 11/4/12* - The Knitting Factory, Brooklyn
