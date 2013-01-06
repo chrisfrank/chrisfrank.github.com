@@ -19,7 +19,7 @@ layout: home
 
 4. ## Read.
     Peruse [lyrics](/lyrics),
-    sporadically-updated [dispatches](/dispatches),
+    sporadically-updated [essays](/essays),
     or both.
 
 5. ## Learn.
@@ -27,7 +27,7 @@ layout: home
     Chris Frank plays guitar and sings. Hayden Frank plays bass and sings.
     They are brothers, not married. Dana Billings drums.
 
-    Need more? Here's [everything we could think of](/info.html).
+    Need more? Here's [our press kit](/info.html).
 
 6. ## Contact
     Chris Frank  
