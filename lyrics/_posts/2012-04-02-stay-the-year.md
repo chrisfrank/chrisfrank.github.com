@@ -1,6 +1,5 @@
 ---
 title: Stay The Year
-categories: lyrics
 bandcamp_link: http://music.thenepotist.com/track/stay-the-year
 permalink: /lyrics/stay-the-year.html
 layout: text

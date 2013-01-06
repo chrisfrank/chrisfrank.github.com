@@ -2,7 +2,6 @@
 title: The Weights
 layout: text
 permalink: /lyrics/the-weights.html
-categories: lyrics
 ---
 
 "Who wants to go to sleep?  

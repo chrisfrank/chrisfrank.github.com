@@ -2,7 +2,6 @@
 title: The Weekend
 layout: text
 permalink: /lyrics/the-weekend.html
-categories: lyrics
 ---
 
 like a lightbulb  

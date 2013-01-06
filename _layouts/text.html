@@ -1,8 +1,16 @@
 {% include header.html %}
 <h2>{{ page.title }}</h2>
+
 {{ content }}
+
+{% assign cat = page.categories[0] %}
+{% if cat %}
+<div class="category_pagination">
+  {% include category_pagination.html %}
+</div>
+{% endif %}
 <div id="footer">
-<h3>&copy; 2013 The Nepotist. All rights reserved.</h3>
+<h3>all content copyright &copy; 2013. all rights reserved.</h3>
 <ul>
 <li><a href="/">Home</a></li>
 <li><a href="/lyrics">Lyrics</a></li>

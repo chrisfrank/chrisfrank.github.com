@@ -2,7 +2,6 @@
 title: Strange Birds
 layout: text
 permalink: /lyrics/strange-birds.html
-categories: lyrics
 ---
 
 one sheet of glass to the river  

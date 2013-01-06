@@ -1,7 +1,6 @@
 ---
 title: Hang or be Hung
 layout: text
-categories: lyrics
 bandcamp_link: http://music.thenepotist.com/track/hang-or-be-hung
 permalink: /lyrics/hang-or-be-hung.html
 ---

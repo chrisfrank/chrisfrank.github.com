@@ -1,7 +1,6 @@
 ---
 title: Our Love Is Gonna Last
 layout: text
-categories: lyrics
 bandcamp_link: http://music.thenepotist.com/track/our-love-is-gonna-last
 permalink: /lyrics/our-love-is-gonna-last.html
 ---

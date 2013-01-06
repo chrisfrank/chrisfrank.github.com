@@ -49,3 +49,8 @@ layout: text
   - MTV
   - WICB
   - WVBR
+
+- **P.R.O.**: [SESAC](https://www.sesac.com)
+
+- **Publishing**: Holistic Detective Music
+

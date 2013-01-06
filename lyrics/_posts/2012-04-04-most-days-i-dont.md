@@ -1,7 +1,6 @@
 ---
 title: Most Days I Don't
 layout: text
-categories: lyrics
 bandcamp_link: http://music.thenepotist.com/track/most-days-i-dont
 permalink: /lyrics/most-days-i-dont.html
 ---

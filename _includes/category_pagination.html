@@ -1,0 +1,19 @@
+{% if page.bandcamp_link %}
+<p><a href="{{ page.bandcamp_link }}">Listen on BandCamp</a></p>
+{% endif %}
+
+{% for post in site.categories[cat] %}
+  {% if post.url == page.url %}
+
+    {% assign older_post = site.categories[cat][forloop.index] %}
+    {% if older_post %}
+      <p>Prev: <a href="{{ older_post.url }}">{{ older_post.title }}</a></p>
+    {% endif %}
+
+    {% if newer_post %}
+      <p>Next: <a href="{{ newer_post.url }}">{{ newer_post.title }}</a></p>
+    {% endif %}
+
+  {% endif %}
+  {% assign newer_post = post %}
+{% endfor %}
