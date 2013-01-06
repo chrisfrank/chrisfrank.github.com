@@ -131,6 +131,11 @@ li {
   display: block;
 }
 
+#footer { margin-top: 4.8em; }
+#footer * { color: #999; }
+#footer ul { margin: 0 0 2.4em; padding: 0; list-style: none; }
+#footer li { display: inline-block; margin-right: 1em; }
+
 body.text h2 { text-decoration: underline; margin-bottom: 2.8em; }
 body.text ol { margin-bottom: 2.4em; }
 

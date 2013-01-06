@@ -15,7 +15,7 @@ layout: home
     Our next show is
     1/16/13 at [The Bowery Electric](http://www.theboweryelectric.com) in NYC.
 
-    View the [full calendar](/gigs.html).
+    View the [full calendar](/gigs).
 
 4. ## Read.
     Peruse [lyrics](/lyrics),
@@ -27,7 +27,7 @@ layout: home
     Chris Frank plays guitar and sings. Hayden Frank plays bass and sings.
     They are brothers, not married. Dana Billings drums.
 
-    Need more? Here's [our press kit](/presskit.html).
+    Need more? Here's [our press kit](/presskit).
 
 6. ## Contact
     Chris Frank  
