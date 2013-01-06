@@ -20,7 +20,7 @@ html {
 body { margin: 0; padding: 0; }
 
 #header, .home > ol, body.text > * {
-  max-width: 620px;
+  max-width: 40em;
   padding: 0 10px;
   margin-left: auto;
   margin-right: auto;
