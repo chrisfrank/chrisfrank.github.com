@@ -4,7 +4,7 @@ layout: text
 ---
 
 - *Monday, 2/4/13* - Rockwood Music Hall, 11pm, Manhattan
-- *Wednesday, 1/16/13* - The Bowery Electric, Manhattan
+- *Saturday, 1/19/13* - Fontanas, 10pm, Manhattan
 - *Saturday, 12/22* - Rockwood Music Hall, 4pm, Manhattan
 - *Friday, 12/21* - Pianos, 8:30pm, Manhattan
 - *Monday, 12/17* - The Wayland, 9pm, Manhattan

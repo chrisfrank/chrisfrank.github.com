@@ -12,7 +12,7 @@ layout: home
 
 3. ## Dance.
     Our next show is
-    1/16/13 at [The Bowery Electric](http://www.theboweryelectric.com) in NYC.
+    1/19/13 at [Fontana's](http://www.fontanasnyc.com) in NYC.
 
     View the [full calendar](/gigs).
 
