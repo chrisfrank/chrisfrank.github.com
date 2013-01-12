@@ -18,7 +18,7 @@ layout: home
 
 4. ## Read.
     Peruse [lyrics](/lyrics),
-    sporadically-updated [essays](/essays),
+    sporadically-updated [dispatches](/dispatches),
     or both.
 
 5. ## Learn.
