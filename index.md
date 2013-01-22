@@ -12,7 +12,7 @@ layout: home
 
 3. ## Dance.
     Our next show is
-    1/19/13 at [Fontana's](http://www.fontanasnyc.com) in NYC.
+    2/04/13 at [Rockwood Music Hall](http://www.rockwoodmusichall.com) in NYC.
 
     View the [full calendar](/gigs).
 
