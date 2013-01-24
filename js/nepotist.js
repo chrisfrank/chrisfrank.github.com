@@ -4,7 +4,7 @@ nptst.TUMBLR_URL = "http://api.tumblr.com/v2/blog/thenepotist.tumblr.com/posts"
 
 nptst.tumblrParsr = {
   fetch: function(){
-    self = this
+    var self = this
     $.ajax({
       url: nptst.TUMBLR_URL,
       dataType: "jsonp",
@@ -33,7 +33,7 @@ nptst.tumblrParsr = {
   },
   init: function(){
     if (!!document.getElementById('tumblr')) {
-      self = this
+      var self = this
       $(window).one('scroll',function(){
         self.fetch()
       })
