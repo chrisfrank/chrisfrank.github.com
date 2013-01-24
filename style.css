@@ -138,6 +138,8 @@ li {
 #tumblr a {
   display: block;
   padding-right: 1px;
+  border: none;
+  &:hover { background: none; }
 }
 
 #tumblr .link {
