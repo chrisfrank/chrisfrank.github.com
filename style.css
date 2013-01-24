@@ -139,8 +139,9 @@ li {
   display: block;
   padding-right: 1px;
   border: none;
-  &:hover { background: none; }
 }
+
+#tumblr a:hover { background: none; }
 
 #tumblr .link {
   background-color: rgb(41,41,41);
