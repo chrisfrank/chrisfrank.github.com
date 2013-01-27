@@ -187,8 +187,7 @@ body.text ol { margin-bottom: 2.4em; }
     height: 100%;
     z-index: -1;
     top: 1em;
-    background-size: contain;
-    -moz-background-size: contain;
+    height: 782px;
   }
   body.home:before {
     background: url(/images/c.jpg) no-repeat left top;
