@@ -3,7 +3,7 @@ title: Press Kit
 layout: text
 ---
 
-- **genre**: alt/soul
+- **genre**: alternative soul
 
 - **personnel**:
 

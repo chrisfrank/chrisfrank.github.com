@@ -1,6 +1,8 @@
 ---
 layout: home
 ---
+> We are The Nepotist. Thank you for finding our website.
+> Here are some things you can do here...
 
 1. ## Listen.
     {% include bandcamp.html %}

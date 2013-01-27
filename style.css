@@ -21,7 +21,7 @@ html {
 
 body { margin: 0; padding: 0; }
 
-#header, .home > ol, body.text > * {
+#header, .home > ol, body.text > *, blockquote {
   max-width: 40em;
   padding: 0 10px;
   margin-left: auto;
@@ -175,6 +175,29 @@ li {
 
 body.text h2 { text-decoration: underline; margin-bottom: 2.8em; }
 body.text ol { margin-bottom: 2.4em; }
+
 @media (min-width: 640px) {
   #header h1 { font-size: 3em; margin: 3em auto; }
+
+  body.home:before, body.home:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    z-index: -1;
+    top: 1em;
+    background-size: contain;
+    -moz-background-size: contain;
+  }
+  body.home:before {
+    background: url(/images/c.jpg) no-repeat left top;
+    width: 283px;
+    left: 0;
+  }
+  body.home:after {
+    background: url(/images/h.jpg) no-repeat right top;
+    width: 235px;
+    right: 0;
+  }
 }
