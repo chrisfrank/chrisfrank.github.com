@@ -199,4 +199,8 @@ body.text ol { margin-bottom: 2.4em; }
     width: 235px;
     right: 0;
   }
+  body.home ol, body.home blockquote {
+    background-color: #e5e6e8;
+    background-color: rgba(229, 230, 232, .8);
+  }
 }
