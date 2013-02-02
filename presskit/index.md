@@ -5,6 +5,9 @@ layout: text
 
 - **genre**: alternative soul
 
+- **demo**:
+  {% include bandcamp.html %}
+
 - **personnel**:
 
   - Chris Frank - guitar, singing
@@ -23,10 +26,10 @@ layout: text
   Chris Frank plays guitar and sings. Hayden Frank plays bass and sings.
   They are brothers, not married. Dana Billings drums.
 
-- **photo** (by <a href="http://www.lexilambros.com/">Lexi Lambros</a>):
+- **photo**
 
-  <a href="/images/press.jpg">
-    <img src="/images/press_thumb.jpg" alt="the nepoitst" />
+  <a href="/images/press11x17.jpg">
+    <img src="/images/press11x17_thumb.jpg" alt="the nepotist" />
   </a>
 
 - **nepotism on the internet**:
