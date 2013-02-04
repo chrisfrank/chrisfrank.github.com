@@ -3,8 +3,15 @@ title: Gigs
 layout: text
 ---
 
+- *Monday, 2/25/13* - The Wayland, 9pm, Manhattan
+- *Thursday, 2/14/13* - The Living Room, 10pm, Manhattan
+- *Monday, 2/11/13* - The Wayland, 9pm, Manhattan
 - *Monday, 2/4/13* - Rockwood Music Hall, 11pm, Manhattan
+- *Monday, 1/28/13* - The Wayland, 9pm, Manhattan
+- *Monday, 1/21/13* - The Wayland, 9pm, Manhattan
 - *Saturday, 1/19/13* - Fontanas, 10pm, Manhattan
+- *Monday, 1/14/13* - The Wayland, 9pm, Manhattan
+- *Monday, 1/7/13* - The Wayland, 9pm, Manhattan
 - *Saturday, 12/22* - Rockwood Music Hall, 4pm, Manhattan
 - *Friday, 12/21* - Pianos, 8:30pm, Manhattan
 - *Monday, 12/17* - The Wayland, 9pm, Manhattan
