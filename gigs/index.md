@@ -4,6 +4,8 @@ layout: text
 ---
 
 - *Monday, 2/25/13* - The Wayland, 9pm, Manhattan
+- *Wednesday, 2/20/13* - The Bowery Electric, 8:30pm, Manhattan
+- *Sunday, 2/17/13* - Arlene's Grocery, 10pm, Manhattan
 - *Thursday, 2/14/13* - The Living Room, 10pm, Manhattan
 - *Monday, 2/11/13* - The Wayland, 9pm, Manhattan
 - *Monday, 2/4/13* - Rockwood Music Hall, 11pm, Manhattan

@@ -14,7 +14,7 @@ layout: home
 
 3. ## Dance.
     Our next show is
-    2/14/13 at [The Living Room](http://www.livingroomny.com) in NYC.
+    2/17/13 at [Arlene's Grocery](http://www.arlenesgrocery.net) in NYC.
 
     View the [full calendar](/gigs).
 
