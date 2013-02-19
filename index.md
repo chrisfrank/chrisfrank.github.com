@@ -14,7 +14,7 @@ layout: home
 
 3. ## Dance.
     Our next show is
-    2/17/13 at [Arlene's Grocery](http://www.arlenesgrocery.net) in NYC.
+    2/20/13 at [The Bowery Electric](http://www.theboweryelectric.com) in NYC.
 
     View the [full calendar](/gigs).
 
