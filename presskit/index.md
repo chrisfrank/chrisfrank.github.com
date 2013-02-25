@@ -50,8 +50,6 @@ layout: text
 
 - **tv/radio placements**:
   - MTV
-  - WICB
-  - WVBR
 
 - **P.R.O.**: [SESAC](https://www.sesac.com)
 
