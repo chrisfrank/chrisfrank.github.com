@@ -14,7 +14,7 @@ layout: home
 
 3. ## Dance.
     Our next show is
-    2/20/13 at [The Bowery Electric](http://www.theboweryelectric.com) in NYC.
+    4/3/13 at [Pianos](http://www.pianosnyc.com) in NYC.
 
     View the [full calendar](/gigs).
 
