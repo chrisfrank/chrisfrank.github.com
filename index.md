@@ -14,7 +14,7 @@ layout: home
 
 3. ## Dance.
     Our next show is
-    4/3/13 at [Pianos](http://www.pianosnyc.com) in NYC.
+    4/3/13 at [The Living Room](http://www.livingroomny.com) in NYC.
 
     View the [full calendar](/gigs).
 

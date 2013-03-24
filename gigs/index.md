@@ -4,7 +4,7 @@ layout: text
 ---
 
 - *Wednesday, 4/24/13* - Rockwood Music Hall, 11pm, Manhattan
-- *Thursday, 4/03/13* - Pianos, 8pm, Manhattan
+- *Thursday, 4/03/13* - The Living Room, 8pm, Manhattan
 - *Thursday, 2/27/13* - 206 Lounge, 8pm, Manhattan
 - *Monday, 2/25/13* - The Wayland, 9pm, Manhattan
 - *Wednesday, 2/20/13* - The Bowery Electric, 10:30pm, Manhattan
