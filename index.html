@@ -1,0 +1,35 @@
+---
+layout: home
+---
+<div class="splash">
+  <div class="sized tall">
+    <div class="splash_content">
+      {% include splash.html %}
+    </div><!-- splash_content -->
+  </div><!-- sized -->
+  <div class="splash_bottom">
+    <div class="sized">
+      <a href="#listen">Listen &#x25BE;</a>
+    </div>
+  </div>
+  {% include next_gig.html %}
+</div><!-- splash -->
+
+<div id="listen" class="white">
+  <div class="sized">
+    <ul class="mp3s">
+      {% for song in site.categories.songs %}
+      <li>
+        <a href="{{ song.mp3 }}" class="mp3">{{ song.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<div id="watch">
+  <div class="sized">
+    <h2>Watch</h2>
+  </div>
+</div>
+
