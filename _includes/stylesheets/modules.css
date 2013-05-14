@@ -5,13 +5,14 @@
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   display: table;
+  margin: 0 auto;
 }
 
 article {
   display: table-cell;
   width: 26em;
   padding: 2em;
-  border-right: 1px solid;
+  border-left: 1px solid;
   vertical-align: top;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -20,6 +21,8 @@ article {
   height: 100%;
   overflow-y: auto;
 }
+
+article:first-child { border-left: none; }
 
 article.narrow {
   width: 18em;
@@ -69,4 +72,20 @@ article.narrow {
   display: block;
   padding: 1em;
 }
-.right { text-align: right; }
+.sized {
+  overflow: hidden;
+  max-width: 1248px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.photos {
+  overflow: auto;
+  padding: 1em;
+}
+.photo {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+.photo img { width: 100%; }
+
