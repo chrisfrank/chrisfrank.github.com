@@ -1,22 +1,28 @@
 ---
 layout: home
 ---
-<div class="splash">
-  <div class="sized tall">
-    <div class="splash_content">
-      {% include splash.html %}
-    </div><!-- splash_content -->
-  </div><!-- sized -->
-  <div class="splash_bottom">
-    <div class="sized">
-      <a href="#listen">Listen &#x25BE;</a>
-    </div>
-  </div>
-  {% include next_gig.html %}
-</div><!-- splash -->
+<div class="newspaper">
 
-<div id="listen" class="white">
-  <div class="sized">
+  <article id="nep_info" class="narrow">
+    <div class="logo">
+      <img src="/images/n_large.png" alt="The Nepotist" />
+    </div>
+    <h1 class="nep_logo"><a href="/">The Nepotist</a></h1>
+    <p>
+      <a href="mailto:chris@thenepotist.com">chris@thenepotist.com</a><br />
+      646.543.4789<br />
+      New York City<br />
+    </p>
+    <p>We write songs and sometimes letters.<p>
+    <p>What's your email?</p>
+    <form id="mc_signup" action="/">
+      <input type="email" required autofocus />
+      <input type="submit" value="Join the list" />
+    </form>
+  </article>
+
+  <article id="listen">
+    <h2>Listen</h2>
     <ul class="mp3s">
       {% for song in site.categories.songs %}
       <li>
@@ -24,12 +30,45 @@ layout: home
       </li>
       {% endfor %}
     </ul>
-  </div>
-</div>
+  </article>
 
-<div id="watch">
-  <div class="sized">
+  <article id="gigs">
+    <h2>Gigs</h2>
+    {% assign site_time = site.time | date: "%Y%m%d" %}
+    <ul class="dated_list">
+      {% for gig in site.categories.gigs reversed %}
+      {% assign t = gig.date | date: "%Y%m%d" %}
+        {% if t >= site_time %}
+        <li>
+          <div class="calendar_date">
+            <div class="calendar_month">{{ gig.date | date: "%b") }}</div>
+            <div class="calendar_day">{{ gig.date | date: "%d" }}</div>
+          </div>
+          <div class="date_info">
+            <p><a href="{{ gig.venue_link}}">{{ gig.venue_name }}</a></p>
+            <p>{{ gig.venue_location }}</p>
+          </div>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <p><a href="/gigs">all gigs ▸</a></p>
+    <hr />
+    <h2>Dispatches</h2>
+    <ul class="dated_list">
+      {% for post in site.categories.dispatches | limit:5 %}
+      <li>
+        <a href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </article>
+
+  <article id="watch">
     <h2>Watch</h2>
-  </div>
-</div>
+  </article>
+
+</div><!-- newspaper -->
 

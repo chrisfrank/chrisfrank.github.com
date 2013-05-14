@@ -1,76 +1,52 @@
-.sized {
-  max-width: 40em;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 1em;
-}
-
-.sized img {
-  max-width: 100%;
-}
-
-.sized > *:first-child {
-  margin-top: 0;
-}
-
-.splash {
+.newspaper {
   height: 100%;
-  border-bottom: .5em solid;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-}
-.tall {
-  height: 100%;
-}
-.splash a {
-  border: none;
-}
-
-.splash_content {
   display: table;
-  height: 100%;
-  width: 100%;
-  margin: 0 auto;
 }
 
-.splash_content > * {
+article {
   display: table-cell;
-  vertical-align: middle;
-  padding: 1em;
+  width: 26em;
+  padding: 2em;
+  border-right: 1px solid;
+  vertical-align: top;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  overflow-y: auto;
 }
 
-.splash_bottom {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
-
-.next_gig {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: .2em 1em 1em;
+article.narrow {
+  width: 18em;
   text-align: right;
 }
-.next_gig p {
-  font-size: .75em;
-  margin-bottom: .4em;
-  text-transform: uppercase;
+
+.dated_list li {
+  margin-bottom: 1em;
 }
 
-.calendar_date {
-  display: block;
+.date_info {
+  display: inline-block;
 }
-.calendar_gig_month {
+.date_info p { margin: 0; }
+
+.calendar_date {
+  display: inline-block;
+  width: 3em;
+}
+
+.calendar_month {
   padding: 0 3px;
   font-variant: small-caps;
   text-transform: lowercase;
   text-align: left;
 }
-.calendar_gig_day {
+.calendar_day {
   font-family: sans-serif;
   font-weight: bold;
   text-align: center;
@@ -79,9 +55,10 @@
 
 .logo img {
   width: 6em;
+  display: inline-block;
 }
 
-.mp3s {
+.mp3s, .dated_list {
   list-style: none;
 }
 .mp3s li {
@@ -92,3 +69,4 @@
   display: block;
   padding: 1em;
 }
+.right { text-align: right; }

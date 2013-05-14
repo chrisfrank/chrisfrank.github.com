@@ -26,7 +26,7 @@ html {
 
 .mp3 {
   background: #26292c;
-  border: 3px solid #26292c;
+  border: 1px solid #e5e6e8;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -35,14 +35,14 @@ html {
 }
 
 .mp3:hover {
-  border: 3px solid #ac4f4a;
+  border: 1px solid #ac4f4a;
 }
 
 .calendar_date {
   background: #e5e6e8;
   color: #000;
 }
-.calendar_gig_month {
+.calendar_month {
   padding: .1em;
   background: #ac4f4a;
   color: #e5e6e8;
@@ -58,10 +58,18 @@ a:hover { border-color: #dcca9b; }
 
 h1, h2, h3, h4, h5, h6 {
   color: white;
-  text-transform: uppercase;
   font-size: 1em;
-  font-weight: normal;
+  font-weight: bold;
+  font-family: serif;
+  font-style: italic;
   -webkit-font-smoothing: auto;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: #e5e6e8;
+  margin: 1em auto;
 }
 
 img { display: block; }
@@ -70,13 +78,14 @@ input {
   background: transparent;
   color: inherit;
   border: none;
-  border-bottom: 2px solid;
+  border-bottom: 1px solid;
   font-family: "menlo", "monaco", monospace;
 }
 
 input[type=submit] {
-  border: none;
   font-weight: bold;
+  cursor: pointer;
+  border: none;
 }
 
 input:focus {
