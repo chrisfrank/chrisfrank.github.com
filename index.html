@@ -30,6 +30,7 @@ layout: home
       </li>
       {% endfor %}
     </ul>
+    <p><a href="http://music.thenepotist.com/">more ▸</a></p>
   </article>
 
   <article id="gigs">
@@ -54,9 +55,9 @@ layout: home
     </ul>
     <p><a href="/gigs">all gigs ▸</a></p>
     <hr />
-    <h2>Dispatches</h2>
+    <h2>Posts</h2>
     <ul class="dated_list">
-      {% for post in site.categories.dispatches | limit:5 %}
+      {% for post in site.categories.posts | limit:5 %}
       <li>
         <a href="{{ post.url }}">
           {{ post.title }}
@@ -69,17 +70,26 @@ layout: home
 
   <article id="watch">
     <h2>Watch</h2>
+    <ul class="videos">
+      <li class="video">
+        <img src="/assets/video/hang.jpg" />
+      </li>
+      <li class="video">
+        <img src="/assets/video/hang.jpg" />
+      </li>
+    </ul>
   </article>
 
 </div><!-- newspaper -->
 
-<div class="white photos">
-  <div class="sized">
+<div class="photos">
       <a class="photo" href="/assets/press_photos/1.jpg">
         <img src="/assets/press_photos/1_thumb.jpg" alt="Chris Frank and Hayden Frank" />
     </a>
     <a class="photo" href="/assets/press_photos/2.jpg">
       <img src="/assets/press_photos/2_thumb.jpg" alt="Chris Frank and Hayden Frank" />
     </a>
-  </div>
+    <a class="photo" href="/assets/press_photos/3.jpg">
+      <img src="/assets/press_photos/3_thumb.jpg" alt="Chris Frank and Hayden Frank" />
+    </a>
 </div>
