@@ -2,6 +2,7 @@
 title: Most Days I Don't
 layout: text
 mp3: http://thenepotist.s3.amazonaws.com/assets/audio/most_days_i_dont.mp3
+bandcamp_link: http://music.thenepotist.com/track/most-days-i-dont
 ---
 
 You think you know the place  

@@ -2,6 +2,7 @@
 title: Our Love Is Gonna Last
 layout: text
 mp3: http://thenepotist.s3.amazonaws.com/assets/audio/our_love_is_gonna_last.mp3
+bandcamp_link: http://music.thenepotist.com/track/our-love-is-gonna-last
 ---
 
 Like the first rays of the rising sun  
