@@ -26,7 +26,10 @@ layout: home
     <ul class="mp3s">
       {% for song in site.categories.songs %}
       <li>
-        <a href="{{ song.mp3 }}" class="mp3">{{ song.title }}</a>
+        <a data-mp3="{{song.mp3}}" href="{{song.bandcamp_link}}" class="mp3">
+          {{ song.title }}
+        </a>
+        <a href="{{ song.bandcamp_link}}" class="download">✇</a>
       </li>
       {% endfor %}
     </ul>

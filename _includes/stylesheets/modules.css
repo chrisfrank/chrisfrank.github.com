@@ -66,10 +66,28 @@ article.narrow {
 .mp3s li {
   display: block;
   margin-bottom: 1em;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
 }
 .mp3s a {
   display: block;
   padding: 1em;
+}
+
+.mp3s .download {
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 32px;
+  line-height: 31px;
+  height: 32px;
+  width: 32px;
+  overflow: hidden;
+  position: absolute;
+  top: 6px;
+  right: 3px;
+  padding: 0;
+  border: none;
+  text-align: center;
 }
 
 .videos { list-style: none; width: 100%; }
