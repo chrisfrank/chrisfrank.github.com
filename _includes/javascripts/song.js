@@ -59,7 +59,10 @@ n.Song = function(link){
   }
   return(this.init())
 }
-n.songLinks = document.querySelectorAll("a[data-mp3]")
-for(i=0; i < n.songLinks.length; i++) {
-  n.songs.push(new n.Song(n.songLinks[i]))
+n.testSong = document.createElement('audio')
+if(!!document.querySelector && !!n.testSong.canPlayType('audio/mpeg')){
+  n.songLinks = document.querySelectorAll("a[data-mp3]")
+  for(i=0; i < n.songLinks.length; i++) {
+    n.songs.push(new n.Song(n.songLinks[i]))
+  }
 }
