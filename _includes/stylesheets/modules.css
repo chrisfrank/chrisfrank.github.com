@@ -1,11 +1,10 @@
 .newspaper {
-  height: 50em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-  display: table;
   margin: 0 auto;
+  max-width: 1248px;
 }
 
 article {
@@ -25,7 +24,6 @@ article:first-child { border-left: none; }
 
 article.narrow {
   width: 18em;
-  text-align: right;
 }
 
 .dated_list li {
@@ -56,9 +54,14 @@ article.narrow {
 }
 
 .logo img {
-  width: 10em;
-  display: inline-block;
+  width: 14em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
 }
+
+.nep_logo { display: none; }
 
 .mp3s, .dated_list {
   list-style: none;
@@ -92,7 +95,14 @@ article.narrow {
 
 .videos { list-style: none; width: 100%; }
 .video { display: block; margin-bottom: 1em; }
-.video img { width: 22em; }
+.video img {
+  width: 22em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid;
+}
 .sized {
   overflow: hidden;
   max-width: 1248px;
@@ -100,16 +110,26 @@ article.narrow {
   margin-right: auto;
 }
 .photos {
-  overflow: auto;
   background: #111213;
-  padding: 1em;
+  padding: 2em 1em 0;
   border-top: 1px solid;
   border-bottom: 1px solid;
+  display: inline-table;
+  width: 100%;
+  text-align: right;
+  margin-bottom: -5px;
 }
 .photo {
   width: 33.3333%;
-  float: left;
+  display: inline-block;
   border: none;
 }
-.photo img { width: 100%; }
-
+.photo img { width: 100%; display: block; }
+.photos p:before {
+  content: "";
+  display: block;
+  clear: both;
+}
+.right {
+  text-align: right;
+}

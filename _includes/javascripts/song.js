@@ -38,7 +38,7 @@ n.Song = function(link){
     }
   }
   this.onTimeUpdate = function(e){
-    transform = "rotate(" + -this.currentTime*100 + "deg)"
+    transform = "rotate(" + this.currentTime*100 + "deg)"
     _song.tapeRoll.style.webkitTransform = transform
     if(this.ended){
       _song.onEnd()

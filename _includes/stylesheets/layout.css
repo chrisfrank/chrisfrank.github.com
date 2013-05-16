@@ -1,0 +1,6 @@
+#footer img {
+  width: 10em;
+  display: inline-block;
+}
+
+#footer p { text-align: left; }

@@ -5,7 +5,7 @@ layout: home
 
   <article id="nep_info" class="narrow">
     <div class="logo">
-      <img src="/images/n_large.png" alt="The Nepotist" />
+      <img src="/images/avatar.png" alt="The Nepotist" />
     </div>
     <h1 class="nep_logo"><a href="/">The Nepotist</a></h1>
     <p>
@@ -15,10 +15,7 @@ layout: home
     </p>
     <p>We write songs and sometimes letters.<p>
     <p>What's your email?</p>
-    <form id="mc_signup" action="/">
-      <input type="email" required autofocus />
-      <input type="submit" value="Join the list" />
-    </form>
+    {% include mailchimp.html %}
   </article>
 
   <article id="listen">
@@ -86,13 +83,14 @@ layout: home
 </div><!-- newspaper -->
 
 <div class="photos">
-      <a target="_blank" class="photo" href="/assets/press_photos/1.jpg">
-        <img src="/assets/press_photos/1_thumb.jpg" alt="Chris Frank and Hayden Frank" />
-    </a>
-    <a target="_blank" class="photo" href="/assets/press_photos/2.jpg">
-      <img src="/assets/press_photos/2_thumb.jpg" alt="Chris Frank and Hayden Frank" />
-    </a>
-    <a target="_blank" class="photo" href="/assets/press_photos/3.jpg">
-      <img src="/assets/press_photos/3_thumb.jpg" alt="Chris Frank and Hayden Frank" />
-    </a>
+  <a target="_blank" class="photo" href="/assets/press_photos/1.jpg">
+    <img src="/assets/press_photos/1_thumb.jpg" alt="Chris Frank and Hayden Frank" />
+  </a>
+  <a target="_blank" class="photo" href="/assets/press_photos/2.jpg">
+    <img src="/assets/press_photos/2_thumb.jpg" alt="Chris Frank and Hayden Frank" />
+  </a>
+  <a target="_blank" class="photo" href="/assets/press_photos/3.jpg">
+    <img src="/assets/press_photos/3_thumb.jpg" alt="Chris Frank and Hayden Frank" />
+  </a>
+  <p>Photos by Brandon Leger (L, C) and Lexi Lambros (R)</p>
 </div>
