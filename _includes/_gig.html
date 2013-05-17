@@ -2,6 +2,7 @@
   {% if current_gig_year %}
     {% assign gig_year = gig.date | date: "%Y" %}
     {% if gig_year < current_gig_year %}
+      <hr />
       <h3>{{ gig_year }}</h3>
       {% assign current_gig_year = gig_year %}
     {% endif %}
