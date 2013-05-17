@@ -3,6 +3,7 @@ title: The Weekend
 layout: text
 mp3: http://thenepotist.s3.amazonaws.com/assets/audio/the_weekend.mp3
 bandcamp_link: http://music.thenepotist.com/track/the-weekend
+featured: true
 ---
 
 like a lightbulb  

@@ -3,31 +3,20 @@ layout: home
 ---
 <div class="newspaper">
 
-  <article id="nep_info" class="narrow">
-    <div class="logo">
-      <img src="/images/avatar.png" alt="The Nepotist" />
-    </div>
-    <h1 class="nep_logo"><a href="/">The Nepotist</a></h1>
-    <p>
-      <a href="mailto:chris@thenepotist.com">chris@thenepotist.com</a><br />
-      646.543.4789<br />
-      New York City<br />
-    </p>
-    <p>We write songs and sometimes letters.<p>
-    <p>What's your email?</p>
-    {% include mailchimp.html %}
-  </article>
+  {% include nep_info.html %}
 
   <article id="listen">
     <h2>Listen</h2>
     <ul class="mp3s">
       {% for song in site.categories.songs %}
+      {% if song.featured %}
       <li>
         <a data-mp3="{{song.mp3}}" href="{{song.bandcamp_link}}" class="mp3">
           {{ song.title }}
         </a>
         <a href="{{ song.bandcamp_link}}" class="download">✇</a>
       </li>
+      {% endif %}
       {% endfor %}
     </ul>
     <p><a href="http://music.thenepotist.com/">more ▸</a></p>

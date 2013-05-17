@@ -3,6 +3,7 @@ title: Strange Birds
 layout: text
 mp3: http://thenepotist.s3.amazonaws.com/assets/audio/strange_birds.mp3
 bandcamp_link: http://music.thenepotist.com/track/strange-birds
+featured: true
 ---
 
 one sheet of glass to the river  

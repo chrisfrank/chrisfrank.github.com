@@ -3,6 +3,7 @@ title: Stay The Year
 layout: text
 mp3: http://thenepotist.s3.amazonaws.com/assets/audio/stay_the_year.mp3
 bandcamp_link: http://music.thenepotist.com/track/stay-the-year
+featured: true
 ---
 
 Meet me in back of a battle  

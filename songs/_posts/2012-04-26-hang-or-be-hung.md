@@ -3,6 +3,7 @@ title: Hang or be Hung
 layout: text
 mp3: http://thenepotist.s3.amazonaws.com/assets/audio/hang_or_be_hung.mp3
 bandcamp_link: http://music.thenepotist.com/track/hang-or-be-hung
+featured: true
 ---
 
 Some love is holy, some love is hot  

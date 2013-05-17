@@ -3,6 +3,7 @@ title: Worry Hard
 layout: text
 mp3: http://thenepotist.s3.amazonaws.com/assets/audio/worry_hard.mp3
 bandcamp_link: http://music.thenepotist.com/track/worry-hard
+featured: true
 ---
 
 When I worry, I never worry for you  

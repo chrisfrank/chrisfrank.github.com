@@ -1,25 +1,22 @@
 {% include header.html %}
-<h2>{{ page.title }}</h2>
-
-{{ content }}
-
 {% assign cat = page.categories[0] %}
-{% if cat %}
-<div class="category_pagination">
-  {% include category_pagination.html %}
+
+<div class="newspaper text">
+  {% include nep_info.html %}
+  <article class="wide {{ page.categories}} ">
+  <h2>
+    {{ page.title }}
+    {% if cat %}<span class="post_date">{{ page.date | date: "%D" }}</span>{% endif %}
+  </h2>
+    {{ content }}
+    {% if cat %}
+    <div class="category_pagination">
+      {% include category_pagination.html %}
+    </div>
+    {% endif %}
+  </article>
 </div>
-{% endif %}
-<div id="footer">
-<h3>all content copyright &copy; 2013. all rights reserved.</h3>
-<ul>
-<li><a href="/">Home</a></li>
-<li><a href="/lyrics">Lyrics</a></li>
-<li><a href="/gigs">Gigs</a></li>
-<li><a href="/presskit">Press Kit</a></li>
-<li><a href="http://eepurl.com/rmK2T">Email List</a></li>
-<li><a href="http://music.thenepotist.com/">BandCamp</a></li>
-<li><a href="http://thenepotist.tumblr.com/">Tumblr</a></li>
-</ul>
-</div>
-</body>
-</html>
+
+
+{% include footer.html %}
+

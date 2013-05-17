@@ -1,0 +1,17 @@
+---
+title: Songs
+layout: text
+---
+
+<ul class="mp3s">
+  {% for song in site.categories.songs %}
+  <li>
+    <a data-mp3="{{song.mp3}}" href="{{song.bandcamp_link}}" class="mp3">
+      {{ song.title }}
+    </a>
+    <a href="{{ song.bandcamp_link}}" class="download">✇</a>
+    <p><a href="{{ song.bandcamp_link }}">Download on BandCamp ▸</a></p>
+    {{ song.content }}
+  </li>
+  {% endfor %}
+</ul>

@@ -3,6 +3,7 @@ title: The Weights
 layout: text
 mp3: http://thenepotist.s3.amazonaws.com/assets/audio/the_weights.mp3
 bandcamp_link: http://music.thenepotist.com/track/the-weights
+featured: true
 ---
 
 "Who wants to go to sleep?  

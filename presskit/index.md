@@ -26,17 +26,18 @@ layout: text
   Chris Frank plays guitar and sings. Hayden Frank plays bass and sings.
   They are brothers, not married. Dana Billings drums.
 
-- **photo**
+- **photos**
 
-  <a href="/images/press11x17.jpg">
-    <img src="/images/press11x17_thumb.jpg" alt="the nepotist" />
+  <a target="_blank" class="photo" href="/assets/press_photos/1.jpg">
+    <img src="/assets/press_photos/1_thumb.jpg" alt="Chris Frank and Hayden Frank" />
   </a>
-
-- **nepotism on the internet**:
-  - [tumblr](http://thenepotist.tumblr.com)
-  - [bandcamp](http://music.thenepotist.com/)
-  - [vimeo](http://vimeo.com/thenepotist)
-  - [facebook](http://facebook.com/thenepotist.myspace)
+  <a target="_blank" class="photo" href="/assets/press_photos/2.jpg">
+    <img src="/assets/press_photos/2_thumb.jpg" alt="Chris Frank and Hayden Frank" />
+  </a>
+  <a target="_blank" class="photo" href="/assets/press_photos/3.jpg">
+    <img src="/assets/press_photos/3_thumb.jpg" alt="Chris Frank and Hayden Frank" />
+  </a>
+  <p>Please credit Brandon Leger (L, C) or Lexi Lambros (R).</p>
 
 - **places we play**:
   - Rockwood Music Hall

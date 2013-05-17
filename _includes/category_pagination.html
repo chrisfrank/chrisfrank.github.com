@@ -7,11 +7,11 @@
 
     {% assign older_post = site.categories[cat][forloop.index] %}
     {% if older_post %}
-      <p>Prev: <a href="{{ older_post.url }}">{{ older_post.title }}</a></p>
+    <p class="older"><a href="{{ older_post.url }}">◂ {{ older_post.title }}</a></p>
     {% endif %}
 
     {% if newer_post %}
-      <p>Next: <a href="{{ newer_post.url }}">{{ newer_post.title }}</a></p>
+    <p class="newer"><a href="{{ newer_post.url }}">{{ newer_post.title }} &#9656;</a></p>
     {% endif %}
 
   {% endif %}
