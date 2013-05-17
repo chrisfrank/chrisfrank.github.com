@@ -1,0 +1,17 @@
+<li>
+  {% if current_gig_year %}
+    {% assign gig_year = gig.date | date: "%Y" %}
+    {% if gig_year < current_gig_year %}
+      <h3>{{ gig_year }}</h3>
+      {% assign current_gig_year = gig_year %}
+    {% endif %}
+  {% endif %}
+  <div class="calendar_date">
+    <div class="calendar_month">{{ gig.date | date: "%b") }}</div>
+    <div class="calendar_day">{{ gig.date | date: "%d" }}</div>
+  </div>
+  <div class="date_info">
+    <p><a href="{{ gig.venue_link}}">{{ gig.venue_name }}</a></p>
+    <p>{{ gig.venue_location }}</p>
+  </div>
+</li>
