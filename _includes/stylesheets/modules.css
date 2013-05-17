@@ -66,7 +66,10 @@ article.wide {
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
+  border: none;
 }
+
+.logo a { border: none !important; }
 
 .nep_logo { display: none; }
 
@@ -121,10 +124,8 @@ article.wide {
   padding: 2em 1em 0;
   border-top: 1px solid;
   border-bottom: 1px solid;
-  display: inline-table;
   width: 100%;
   text-align: right;
-  margin-bottom: -5px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -132,8 +133,10 @@ article.wide {
 }
 .photo {
   width: 33.3333%;
-  display: inline-block;
+  display: block;
+  float: left;
   border: none;
+  margin-bottom: 1em;
 }
 .photo img { width: 100%; display: block; }
 .photos p:before {
