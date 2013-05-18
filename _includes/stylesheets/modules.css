@@ -104,15 +104,28 @@ article.wide {
 }
 
 .videos { list-style: none; width: 100%; }
-.video { display: block; margin-bottom: 1em; }
-.video img {
+.videos li {
   width: 22em;
+  margin-bottom: 1em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   border: 1px solid;
+  background-color: black;
 }
+.videos iframe {
+  width: 100%;
+}
+.embedded_video {
+  display: block;
+  border: none;
+}
+.embedded_video img {
+  width: 100%;
+  height: auto;
+}
+
 .sized {
   overflow: hidden;
   max-width: 1248px;

@@ -51,12 +51,13 @@ layout: home
   <article id="watch">
     <h2>Watch</h2>
     <ul class="videos">
-      <li class="video">
-        <img src="/assets/video/hang.jpg" alt="Watch 'Hang or be Hung'"/>
+      {% for video in site.categories.videos %}
+      <li>
+        <a class="embedded_video" href="{{ video.link }}">
+          <img src="{{ video.thumbnail }}" alt="Watch '{{ video.title }}'"/>
+        </a>
       </li>
-      <li class="video">
-        <img src="/assets/video/hang.jpg" alt="Watch 'Hang or be Hung'"/>
-      </li>
+      {% endfor %}
     </ul>
   </article>
 
