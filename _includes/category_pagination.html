@@ -6,6 +6,7 @@
   {% if post.url == page.url %}
 
     {% assign older_post = site.categories[cat][forloop.index] %}
+    <h4>Further reading:</h4>
     {% if older_post %}
     <p class="older"><a href="{{ older_post.url }}">◂ {{ older_post.title }}</a></p>
     {% endif %}

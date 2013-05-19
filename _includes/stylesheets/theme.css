@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   font-size: 1.5em;
   font-weight: normal;
-  font-family: 'hoefler text',cochin, georgia, serif;
+  font-family: 'hoefler text', cochin, georgia, serif;
   font-style: italic;
   -webkit-font-smoothing: antialiased;
 }
@@ -111,8 +111,13 @@ article.posts p {
   max-width: 700px;
 }
 
+article.posts img {
+  max-width: 100%;
+}
+
 article.posts h2 {
   font-size: 2.5em;
+  border-bottom: 1px solid;
 }
 
 article.posts .post_date {
@@ -125,4 +130,8 @@ article.posts .post_date {
   margin-top: 3em;
   padding-top: 1em;
   border-top: 1px dashed;
+}
+.category_pagination h4 {
+  font-size: 1em;
+  text-transform: capitalize;
 }
