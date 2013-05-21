@@ -2,3 +2,27 @@
   border: 1px solid #ac4f4a;
   color: #ac4f4a;
 }
+
+.is_playing .tape_roll {
+  -webkit-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+
+@-webkit-keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to{
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+

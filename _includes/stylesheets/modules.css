@@ -87,12 +87,12 @@ article.wide {
   padding: 1em;
 }
 
-.mp3s .download {
+.mp3s .tape_roll {
   font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 32px;
   line-height: 31px;
-  height: 32px;
+  height: 33px;
   width: 32px;
   overflow: hidden;
   position: absolute;

@@ -10,7 +10,6 @@ n.Song = function(link){
     this.audio.preload = 'none'
     this.audio.src = this.elem.getAttribute('data-mp3')
     this.audio.addEventListener('timeupdate', this.onTimeUpdate, false)
-    this.tapeRoll = this.elem.parentNode.querySelector('.download')
     this.isPlaying = false
     return(this)
   }
@@ -38,8 +37,6 @@ n.Song = function(link){
     }
   }
   this.onTimeUpdate = function(e){
-    transform = "rotate(" + this.currentTime*100 + "deg)"
-    _song.tapeRoll.style.webkitTransform = transform
     if(this.ended){
       _song.onEnd()
     }
