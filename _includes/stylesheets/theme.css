@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'OswaldLight';
+    src: url('/assets/fonts/Oswald-Light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 html {
   color: #e5e6e8;
   min-height: 100%;
@@ -59,9 +66,9 @@ a:hover { border-color: #dcca9b; }
 h1, h2, h3, h4, h5, h6 {
   color: white;
   font-size: 1.5em;
+  font-family: "OswaldLight", "Arial Narrow", sans-serif;
   font-weight: normal;
-  font-family: 'hoefler text', cochin, georgia, serif;
-  font-style: italic;
+  text-transform: uppercase;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -100,10 +107,10 @@ input:focus {
 }
 
 article.posts {
-  font-family: "Hoefler Text", "Book Antiqua", times, serif;
+  font-family: times, 'times new roman', georgia, serif;
   -webkit-font-smoothing: antialiased;
 }
-article.posts > * {
+article.posts {
   font-size: 1.8em;
 }
 
@@ -116,14 +123,12 @@ article.posts img {
 }
 
 article.posts h2 {
-  font-size: 2.5em;
-  border-bottom: 1px dotted;
+  font-size: 1.5em;
 }
 
 article.posts .post_date {
-  font-size: .7em;
+  font-size: .666em;
   color: #dcca9b;
-  padding-left: 1em;
 }
 
 .category_pagination {
@@ -133,5 +138,4 @@ article.posts .post_date {
 }
 .category_pagination h4 {
   font-size: 1em;
-  text-transform: capitalize;
 }

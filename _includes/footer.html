@@ -1,7 +1,11 @@
 <div id="footer" class="newspaper">
   <article class="narrow right">
     <div class="footer_logo">
-      <img src="/images/n_large.png" alt="The Nepotist logo" />
+      {% if page.title %}
+        <a href="/"><img src="/images/n_large.png" alt="The Nepotist logo" /></a>
+      {% else %}
+        <img src="/images/n_large.png" alt="The Nepotist logo" />
+      {% endif %}
     </div>
     All Content &copy; {{ site.time | date: "%Y" }}.
   </article>

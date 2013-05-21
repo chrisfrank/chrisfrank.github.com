@@ -4,4 +4,6 @@
   margin-bottom: 1em;
 }
 
+.footer_logo a { border: none; }
+
 #footer p { text-align: left; }
