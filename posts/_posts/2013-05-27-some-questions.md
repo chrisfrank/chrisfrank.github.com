@@ -1,7 +1,7 @@
 ---
 title: Some Questions
 layout: text
-----
+---
 
 At the end of my freshman writing seminar, my professor asked me to write about what drove me to write. I thought this was a waste of time. What do I care what drives me, so long as I feel driven?
 
