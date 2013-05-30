@@ -12,7 +12,8 @@ layout: text
 
   - Chris Frank - guitar, singing
   - Hayden Frank - bass, singing
-  - Dana Billings - drums
+  - Dana Billings - drums, keys
+  - Owen Erickson - drums
 
 - **contact**: Chris Frank, <a href="mailto:chris@thenepotist.com">chris@thenepotist.com</a>
 
@@ -21,10 +22,7 @@ layout: text
 - **current city**: New York, NY
 
 - **bio**:
-
-  The Nepotist is a band from New York, NY.
-  Chris Frank plays guitar and sings. Hayden Frank plays bass and sings.
-  They are brothers, not married. Dana Billings drums.
+  {{ site.bio }}
 
 - **photos**
 
