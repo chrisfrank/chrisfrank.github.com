@@ -3,7 +3,12 @@
     src: url('/assets/fonts/Oswald-Light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
+}
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('/assets/fonts/inconsolata.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 html {
   color: #e5e6e8;
@@ -11,7 +16,7 @@ html {
   background-color: #26292c;
   background-image: url(/images/noise.jpg);
   background-size: 120px 120px;
-  font-family: "menlo", "monaco", monospace;
+  font-family: 'inconsolata', "menlo", "monaco", monospace;
   //-webkit-font-smoothing: antialiased;
 }
 
@@ -107,15 +112,10 @@ input:focus {
 }
 
 article.posts {
-  font-family: times, 'times new roman', georgia, serif;
   -webkit-font-smoothing: antialiased;
 }
 article.posts {
-  font-size: 1.8em;
-}
-
-article.posts p {
-  max-width: 700px;
+  font-size: 2em;
 }
 
 article.posts img {

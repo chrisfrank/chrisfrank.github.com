@@ -1,0 +1,17 @@
+@media screen and (max-device-width: 480px) {
+  .text .wide p {
+    font-size: 2em;
+  }
+  .text #nep_info {
+    display: none;
+  }
+  .text article.wide {
+    border-left: none;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+  }
+  .text .gig {
+    font-size: .75em;
+  }
+}

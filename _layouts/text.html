@@ -1,9 +1,9 @@
 {% include header.html %}
 {% assign cat = page.categories[0] %}
 
-<div class="newspaper text">
+<div class="newspaper text {{ page.categories }}">
   {% include nep_info.html %}
-  <article class="wide {{ page.categories}} ">
+  <article class="wide {{ page.categories }} ">
   <h2>
     {{ page.title }}
     {% if cat %}<span class="post_date">{{ page.date | date: "%D" }}</span>{% endif %}
