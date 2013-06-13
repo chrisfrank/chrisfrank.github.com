@@ -147,6 +147,7 @@ article.posts {
   box-sizing: border-box;
   border: 1px solid;
   background-color: black;
+  position: relative;
 }
 .videos iframe {
   width: 100%;
@@ -158,6 +159,14 @@ article.posts {
 .embedded_video img {
   width: 100%;
   height: auto;
+}
+.video_title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 1em;
+  text-align: center;
+  height: 1em;
 }
 
 .sized {
