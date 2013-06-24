@@ -98,6 +98,7 @@ input {
   color: inherit;
   border: none;
   border-bottom: 1px solid;
+  border-radius: 0;
   font-family: "menlo", "monaco", monospace;
 }
 
