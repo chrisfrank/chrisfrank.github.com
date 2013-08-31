@@ -1,22 +1,22 @@
-- 100 Asses
+* 100 Asses
 - Economics
-- Firehouse
+* Firehouse
 - After Conversation
-- Jerks
-- Bones
-- Weekend Clothes
+* Jerks
+* Bones
+* Weekend Clothes
 - Kids
-- Stay the Year
+* Stay the Year
 - Hang or be Hung
 - Worry Hard
 - Strange Birds
 - The Weights
 
-- Walkin' Man
-- She Got the Devil in Her
+* Walkin' Man
+* She Got the Devil in Her
 - You're The One
-- Ain't No Sunshine
-- Crazy Love
+* Ain't No Sunshine
+* Crazy Love
 - Sister do you Know my Name
 - Sad Song
 - This Boy
