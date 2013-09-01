@@ -1,0 +1,15 @@
+---
+title: Posts
+layout: list
+---
+
+<ul>
+{% for post in site.categories.posts %}
+  <li>
+  <p><a href="{{post.url}}">
+      <strong>{{post.title}}</strong>, {{ post.date | date: "%d %B %Y" }}
+    </a>
+  </p>
+  </li>
+{% endfor %}
+</ul>

@@ -1,0 +1,21 @@
+<nav class='sized'>
+  {% if page.url != "/index.html" %}
+    <a href="/">The Nepotist</a>
+  {% endif %}
+  {% if page.url == "/gigs/index.html" %}<span>Gigs</span>{% else %}
+    <a href="/gigs">Gigs</a>
+  {% endif %}
+  {% if page.url == "/posts/index.html" %}<span>Posts</span>{% else %}
+    <a href="/posts">Posts</a>
+  {% endif %}
+  {% if page.url == "/songs/index.html" %}<span>Songs</span>{% else %}
+    <a href="/music">Music</a>
+  {% endif %}
+  {% if page.url == "/videos/index.html" %}<span>Videos</span>{% else %}
+    <a href="/videos">Videos</a>
+  {% endif %}
+  <a href="http://facebook.com/thenepotist">Tumblr</a>
+  <a href="http://facebook.com/thenepotist">Facebook</a>
+  <a href="/info.html">Info</a>
+  <a href="/contact.html">Contact</a>
+</nav>

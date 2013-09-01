@@ -1,0 +1,78 @@
+---
+layout: home
+---
+<div class="newspaper">
+
+  {% include nep_info.html %}
+
+  <article id="listen">
+    <h2>Listen</h2>
+    <ul class="mp3s">
+      {% for song in site.categories.songs %}
+      {% if song.featured %}
+      <li>
+        <a data-mp3="{{song.mp3}}" href="{{song.bandcamp_link}}" class="mp3">
+          {{ song.title }}
+          <span class="tape_roll">✇</span>
+        </a>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+    <p><a href="http://music.thenepotist.com/">more ▸</a></p>
+  </article>
+
+  <article id="gigs">
+    <h2>Gigs</h2>
+    {% assign site_time = site.time | date: "%Y%m%d" %}
+    <ul class="dated_list">
+      {% for gig in site.categories.gigs reversed %}
+      {% assign t = gig.date | date: "%Y%m%d" %}
+        {% if t >= site_time %}
+        {% include _gig.html %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <p><a href="/gigs">all gigs ▸</a></p>
+    <hr />
+    <h2>Read</h2>
+    <ul class="dated_list">
+      {% for post in site.categories.posts | limit:5 %}
+      <li>
+        <a href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    <p><a href="/posts">all posts ▸</a></p>
+  </article>
+
+  <article id="watch">
+    <h2>Watch</h2>
+    <ul class="videos">
+      {% for video in site.categories.videos %}
+      <li>
+        <a class="embedded_video" href="{{ video.link }}">
+          <img src="{{ video.thumbnail }}" alt="Watch '{{ video.title }}'"/>
+        </a>
+        <p class="video_title">{{ video.title }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </article>
+
+</div><!-- newspaper -->
+
+<div class="photos">
+  <a target="_blank" class="photo" href="/assets/press_photos/1.jpg">
+    <img src="/assets/press_photos/1_thumb.jpg" alt="Chris Frank and Hayden Frank" />
+  </a>
+  <a target="_blank" class="photo" href="/assets/press_photos/2.jpg">
+    <img src="/assets/press_photos/2_thumb.jpg" alt="Chris Frank and Hayden Frank" />
+  </a>
+  <a target="_blank" class="photo" href="/assets/press_photos/3.jpg">
+    <img src="/assets/press_photos/3_thumb.jpg" alt="Chris Frank and Hayden Frank" />
+  </a>
+  <p>Photos by Brandon Leger (L, C) and Lexi Lambros (R)</p>
+</div>

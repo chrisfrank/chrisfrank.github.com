@@ -1,22 +1,22 @@
 {% include header.html %}
+{% include nav.html %}
 {% assign cat = page.categories[0] %}
 
-<div class="newspaper text {{ page.categories }}">
-  {% include nep_info.html %}
-  <article class="wide {{ page.categories }} ">
-  <h2>
+<article class="text sized {{ page.categories }} ">
+  <h2 class='article_title'>
     {{ page.title }}
-    {% if cat %}<span class="post_date">{{ page.date | date: "%D" }}</span>{% endif %}
+    {% if cat %}<span class="article_date">{{ page.date | date: "%D" }}</span>{% endif %}
   </h2>
-    {{ content }}
-    {% if cat %}
-    <div class="category_pagination">
-      {% include category_pagination.html %}
-    </div>
-    {% endif %}
-  </article>
-</div>
 
+  <div class='article_content'>
+  {{ content }}
+  </div>
 
+  {% if cat %}
+  <div class="category_pagination">
+    {% include category_pagination.html %}
+  </div>
+  {% endif %}
+</article>
 {% include footer.html %}
 

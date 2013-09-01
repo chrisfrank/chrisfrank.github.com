@@ -1,0 +1,49 @@
+.dated_list {
+  overflow: auto;
+  list-style: none;
+}
+.dated_list li {
+  margin-bottom: 1em;
+}
+.date_info {
+  display: inline-block;
+}
+.date_info p { margin: 5px 0 0; }
+.calendar_date {
+  display: inline-block;
+  width: 3em;
+  text-align: center;
+}
+.calendar_month {
+  padding: 0 3px;
+  font-variant: small-caps;
+  text-transform: lowercase;
+}
+.calendar_day {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.gig_year_break {
+  border-top: 1px solid #aaa;
+  padding-top: 1em;
+  margin: 2em 0 0;
+  width: 100%;
+  display: block;
+  clear: both;
+}
+.gig_year_break:first-child { border-top: none; margin-top: 0; padding-top: 0; }
+.calendar_date {
+  background: #e5e6e8;
+  color: #000;
+}
+.calendar_month {
+  background: #ac4f4a;
+  color: #e5e6e8;
+}
+@media (min-width: 720px) {
+  .dated_list .gig {
+    float: left;
+    width: 33%;
+  }
+}

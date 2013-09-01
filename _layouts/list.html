@@ -1,0 +1,10 @@
+{% include header.html %}
+{% include nav.html %}
+{% assign cat = page.categories[0] %}
+<article class="sized {{ page.categories }} ">
+
+  {{ content }}
+
+</article>
+{% include footer.html %}
+

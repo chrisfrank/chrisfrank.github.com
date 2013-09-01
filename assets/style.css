@@ -2,8 +2,6 @@
 ---
 {% include stylesheets/base.css %}
 {% include stylesheets/theme.css %}
-{% include stylesheets/layout.css %}
 {% include stylesheets/modules.css %}
-{% include stylesheets/state.css %}
-{% include stylesheets/mq.css %}
+{% include stylesheets/gigs.css %}
 
