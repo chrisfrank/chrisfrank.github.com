@@ -5,9 +5,6 @@ layout: text
 
 - **genre**: alternative soul
 
-- **demo**:
-  {% include bandcamp.html %}
-
 - **personnel**:
 
   - Chris Frank - guitar, singing
