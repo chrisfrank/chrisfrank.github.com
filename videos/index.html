@@ -1,0 +1,15 @@
+---
+title: Videos
+layout: list
+---
+
+<ul class="videos">
+  {% for video in site.categories.videos %}
+  <li>
+    <h3>{{ video.title }}</h3>
+    <div class='embedded_video'>
+      <iframe src="//www.youtube.com/embed/{{ video.youtube_id }}" frameborder=0 webkitAllowFullScreen mozallowfullscreen allowFullScreen seamless></iframe>
+    </div>
+  </li>
+  {% endfor %}
+</ul>

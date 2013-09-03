@@ -1,0 +1,19 @@
+---
+title: Music
+layout: list
+---
+
+<ul class="mp3s">
+  {% for song in site.categories.music %}
+  <li>
+  <div class='bandcamp'>
+    {% if song.bandcamp_track_id %}
+    <iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/track={{ song.bandcamp_track_id }}/size=medium/bgcol=ffffff/linkcol=333333/transparent=true/" seamless></iframe>
+    {% elsif song.bandcamp_album_id %}
+    <iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album={{ song.bandcamp_album_id }}/size=medium/bgcol=ffffff/linkcol=333333/t=1/transparent=true/" seamless></iframe>
+    {% endif %}
+  </div>
+    {{ song.content }}
+  </li>
+  {% endfor %}
+</ul>

@@ -28,6 +28,34 @@
 .l_home .footer {
   display: none;
 }
+.mp3s {
+  list-style: none;
+}
+.mp3s li {
+  margin-bottom: 1.4em;
+}
+.videos {
+  list-style: none;
+}
+.embedded_video {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+  margin-bottom: 1.4em;
+  background-color: #eee;
+}
+.embedded_video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.mc {
+  text-align: center;
+  padding-bottom: 20px;
+}
 @media (max-width: 480px) {
   .feature {
     vertical-align: top;
