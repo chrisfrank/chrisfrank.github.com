@@ -1,15 +1,15 @@
 * 100 Asses
 - Economics
 * Firehouse
-- After Conversation
+* After Conversation
 * Jerks
 * Bones
 * Weekend Clothes
 - Kids
 * Stay the Year
-- Hang or be Hung
+* Hang or be Hung
 - Worry Hard
-- Strange Birds
+* Strange Birds
 - The Weights
 
 * Walkin' Man
@@ -24,4 +24,4 @@
 - Feel Like Goin' Home
 - Unravel
 - 50 Ways to Leave Your Lover
-- Glory Box
+* Glory Box
