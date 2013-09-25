@@ -14,6 +14,7 @@
 .feature {
   display: table-cell;
   vertical-align: middle;
+  text-align: center;
 }
 .feature iframe {
   margin: 0 auto;
