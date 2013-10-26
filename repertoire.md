@@ -1,5 +1,5 @@
 * 100 Asses
-- Economics
+* Economics
 * Firehouse
 * After Conversation
 * Jerks
@@ -8,22 +8,25 @@
 - Kids
 * Stay the Year
 * Hang or be Hung
-- Worry Hard
+* Worry Hard
 * Strange Birds
 - The Weights
+* Stand & Deliver
+* Trust
+* Slouch
 
 * Walkin' Man
 * She Got the Devil in Her
 * Glory Box
-* Feel Like Goin' Home
 * Ain't No Sunshine
 * Crazy Love
+* You're The One
+* Sad Song
 
-- You're The One
 - Sister do you Know my Name
-- Sad Song
 - This Boy
+- Feel Like Goin' Home
+- Lost in the Light
 
 - Unravel
 - 50 Ways to Leave Your Lover
-- Lost in the Light
