@@ -5,15 +5,15 @@
 * Jerks
 * Bones
 * Weekend Clothes
-- Kids
 * Stay the Year
 * Hang or be Hung
 * Worry Hard
 * Strange Birds
-- The Weights
 * Stand & Deliver
 * Trust
 * Slouch
+- The Weights
+- Kids
 
 * Walkin' Man
 * She Got the Devil in Her
@@ -23,10 +23,10 @@
 * You're The One
 * Sad Song
 
-- Sister do you Know my Name
-- This Boy
-- Feel Like Goin' Home
 - Lost in the Light
+- This Boy
+- Sister do you Know my Name
+- Feel Like Goin' Home
 
 - Unravel
 - 50 Ways to Leave Your Lover
