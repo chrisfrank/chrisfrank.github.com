@@ -57,8 +57,34 @@
   text-align: center;
   padding-bottom: 20px;
 }
+
+.newspaper {
+ // max-width: 480px;
+}
+.newspaper .intro {
+  text-align: center;
+}
+.intro h1 span {
+  display: none;
+}
+.intro p {
+  max-width: 40em;
+}
+.intro img {
+  opacity: 0.8;
+  height: 9em;
+  display: block;
+  margin: 0 auto;
+}
+.newspaper section {
+  padding: 1em 0;
+}
+.newspaper p {
+  margin: 0 auto;
+}
+
 @media (max-width: 480px) {
-  .feature {
+  .padding {
     vertical-align: top;
   }
 }

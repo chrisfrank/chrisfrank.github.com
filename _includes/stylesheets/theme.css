@@ -49,6 +49,21 @@ h1, h2, h3, h4, h5, h6 {
 .bandcamp {
   background-color: #eee;
 }
+.newspaper {
+  border-top: 1em solid #eee;
+}
+.newspaper h2 {
+  font-size: 1em;
+}
+.newspaper section {
+  border-top: 1px solid #eee;
+}
+.newspaper section:first-child {
+  border-top: none;
+}
+.newspaper nav {
+  text-align: center;
+}
 @media (min-width: 700px) {
   .article_content {
     font-size: 1.8em;

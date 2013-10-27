@@ -22,9 +22,12 @@ nav > * {
   display: inline-block;
 }
 
-.l_home nav {
-  top: -33px;
-  text-align: center;
+nav img {
+  height: 2em;
+  opacity: .8;
+  display: inline;
+  position: relative;
+  top: .5em;
 }
 
 h1, h2, h3, h4, h5, h6 {

@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-<article>
+<article class='newspaper sized'>
   <section class='intro'>
     <h1>
       <img src='/images/logo_text.png' alt='The Nepotist' />
@@ -10,32 +10,50 @@ layout: home
     <p>{{ site.bio }}</p>
   </section>
 
+  <section class='nav'>
+    {% include nav.html %}
+  </section>
+
   <section class='list'>
-    <p>Hey you, keep in touch:</p>
+    <h2>Keep in Touch</h2>
     {% include mailchimp.html %}
   </section>
 
   <section class='song'>
-    {% for feature in site.categories.features reversed | limit:1 %}
-      {{ feature.content }}
+    <h2><a href='/music'>Listen ▸</a></h2>
+    {% for song in site.categories.music reversed | limit:1 %}
+      {% if song.bandcamp_track_id %}
+      <iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/track={{ song.bandcamp_track_id }}/size=medium/bgcol=ffffff/linkcol=333333/transparent=true/" seamless></iframe>
+      {% elsif song.bandcamp_album_id %}
+      <iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album={{ song.bandcamp_album_id }}/size=medium/bgcol=ffffff/linkcol=333333/t=1/transparent=true/" seamless></iframe>
+      {% endif %}
     {% endfor %}
   </section>
 
   <section class='video'>
-    {% for feature in site.categories.features reversed | limit:1 %}
-      {{ feature.content }}
+    <h2><a href='/videos'>Watch ▸</a></h2>
+    {% for video in site.categories.videos reversed | limit:1 %}
+      <div class='embedded_video'>
+        <iframe src="//www.youtube.com/embed/{{ video.youtube_id }}" frameborder=0 webkitAllowFullScreen mozallowfullscreen allowFullScreen seamless></iframe>
+      </div>
     {% endfor %}
   </section>
 
   <section class='gigs'>
+    <h2><a href='/gigs/'>Gigs ▸</a></h2>
+    {% assign site_time = site.time | date: "%Y%m%d" %}
+    <ul class="dated_list">
+      {% for gig in site.categories.gigs reversed | limit: 5 %}
+      {% assign t = gig.date | date: "%Y%m%d" %}
+        {% if t >= site_time %}
+        {% include _gig.html %}
+        {% endif %}
+      {% endfor %}
+    </ul>
   </section>
 
   <section class='posts'>
-  </sections>
-
-
-  <section class='nav'>
-    {% include nav.html %}
   </section>
+
 
 </article>
