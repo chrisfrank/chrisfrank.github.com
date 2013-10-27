@@ -1,16 +1,41 @@
 ---
 layout: home
 ---
-<div class='feature-wrap'>
-  {% for feature in site.categories.features reversed | limit:1 %}
-    <div class='feature'>
-    {{ feature.content }}
-    </div>
-  {% endfor %}
-</div>
+<article>
+  <section class='intro'>
+    <h1>
+      <img src='/images/logo_text.png' alt='The Nepotist' />
+      <span>The Nepotist</span>
+    </h1>
+    <p>{{ site.bio }}</p>
+  </section>
 
-{% include nav.html %}
-<div class='mc sized'>
-  <p>Hey, keep in touch:</p>
-  {% include mailchimp.html %}
-</div>
+  <section class='list'>
+    <p>Hey you, keep in touch:</p>
+    {% include mailchimp.html %}
+  </section>
+
+  <section class='song'>
+    {% for feature in site.categories.features reversed | limit:1 %}
+      {{ feature.content }}
+    {% endfor %}
+  </section>
+
+  <section class='video'>
+    {% for feature in site.categories.features reversed | limit:1 %}
+      {{ feature.content }}
+    {% endfor %}
+  </section>
+
+  <section class='gigs'>
+  </section>
+
+  <section class='posts'>
+  </sections>
+
+
+  <section class='nav'>
+    {% include nav.html %}
+  </section>
+
+</article>
