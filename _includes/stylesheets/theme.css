@@ -24,7 +24,9 @@ nav {
 nav a {
   color: #999;
 }
+
 .l_home nav { border-top: none; }
+
 nav img:hover { opacity: 1; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -66,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
   border-top: none;
 }
 .newspaper section:last-child {
-  border-bottom: .5em solid #eee;
+  border-bottom: 1px solid #eee;
 }
 .newspaper nav {
   text-align: center;
