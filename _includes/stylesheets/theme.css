@@ -19,10 +19,12 @@ a:hover { color: #666; }
 nav {
   color: #333;
   font-weight: bold;
+  border-top: 1em solid #eee;
 }
 nav a {
   color: #999;
 }
+.l_home nav { border-top: none; }
 nav img:hover { opacity: 1; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -52,6 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .newspaper {
   border-top: 1em solid #eee;
+  padding-bottom: 1em;
 }
 .newspaper h2 {
   font-size: 1em;
@@ -61,6 +64,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .newspaper section:first-child {
   border-top: none;
+}
+.newspaper section:last-child {
+  border-bottom: .5em solid #eee;
 }
 .newspaper nav {
   text-align: center;
