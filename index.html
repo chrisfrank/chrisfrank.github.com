@@ -43,7 +43,7 @@ layout: home
     <h2><a href='/gigs'>Next Gigs ▸</a></h2>
     {% assign site_time = site.time | date: "%Y%m%d" %}
     <ul class="dated_list">
-      {% for gig in site.categories.gigs reversed | limit: 5 %}
+      {% for gig in site.categories.gigs reversed | limit: 3 %}
       {% assign t = gig.date | date: "%Y%m%d" %}
         {% if t >= site_time %}
         {% include _gig.html %}
