@@ -19,6 +19,15 @@ layout: home
     {% include mailchimp.html %}
   </section>
 
+  <section class='video'>
+    <h2><a href='/videos'>Watch ▸</a></h2>
+    {% for video in site.categories.videos reversed | limit:1 %}
+      <div class='embedded_video'>
+        <iframe src="//www.youtube.com/embed/{{ video.youtube_id }}" frameborder=0 webkitAllowFullScreen mozallowfullscreen allowFullScreen seamless></iframe>
+      </div>
+    {% endfor %}
+  </section>
+
   <section class='song'>
     <h2><a href='/music'>Listen ▸</a></h2>
     {% for song in site.categories.music reversed | limit:1 %}
@@ -30,14 +39,6 @@ layout: home
     {% endfor %}
   </section>
 
-  <section class='video'>
-    <h2><a href='/videos'>Watch ▸</a></h2>
-    {% for video in site.categories.videos reversed | limit:1 %}
-      <div class='embedded_video'>
-        <iframe src="//www.youtube.com/embed/{{ video.youtube_id }}" frameborder=0 webkitAllowFullScreen mozallowfullscreen allowFullScreen seamless></iframe>
-      </div>
-    {% endfor %}
-  </section>
 
   <section class='gigs'>
     <h2><a href='/gigs'>Next Gigs ▸</a></h2>
