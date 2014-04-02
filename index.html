@@ -1,72 +1,37 @@
 ---
-layout: home
+layout: list
 ---
-<article class='newspaper sized'>
-  <section class='intro'>
-    <h1>
-      <img src='/images/logo_text.png' alt='The Nepotist' />
-      <span>The Nepotist</span>
-    </h1>
-    <p>{{ site.bio }}</p>
+<div class="newspaper">
+  <section>
+    <header><h2><a href='/gigs'>Next Gigs ▸</a></h2></header>
+    <article>
+      {% assign site_time = site.time | date: "%Y%m%d" %}
+        {% for gig in site.categories.gigs reversed | limit: 3 %}
+        {% assign t = gig.date | date: "%Y%m%d" %}
+          {% if t >= site_time %}
+          <div>
+            <em>{{ gig.date | date: "%b %d") }}:</em>
+            {{ gig.venue_name }} -
+            {{ gig.venue_location }}
+          </div>
+          {% endif %}
+        {% endfor %}
+    </article>
+  </section>
+  <section>
+    <header><h2>Keep in Touch</h2></header>
+    <article>{% include mailchimp.html %}</article>
   </section>
 
-  <section class='nav'>
-    {% include nav.html %}
-  </section>
+</div>
 
-  <section class='list'>
-    <h2>Keep in Touch</h2>
-    {% include mailchimp.html %}
-  </section>
+<section class='video'>
+  <h2><a href='/videos'>Watch ▸</a></h2>
+  {% for video in site.categories.videos reversed | limit:1 %}
+    <div class='embedded_video'>
+      <iframe src="//www.youtube.com/embed/{{ video.youtube_id }}" frameborder=0 webkitAllowFullScreen mozallowfullscreen allowFullScreen seamless></iframe>
+    </div>
+  {% endfor %}
+</section>
 
-  <section class='video'>
-    <h2><a href='/videos'>Watch ▸</a></h2>
-    {% for video in site.categories.videos reversed | limit:1 %}
-      <div class='embedded_video'>
-        <iframe src="//www.youtube.com/embed/{{ video.youtube_id }}" frameborder=0 webkitAllowFullScreen mozallowfullscreen allowFullScreen seamless></iframe>
-      </div>
-    {% endfor %}
-  </section>
-
-  <section class='song'>
-    <h2><a href='/music'>Listen ▸</a></h2>
-    {% for song in site.categories.music reversed | limit:1 %}
-      {% if song.bandcamp_track_id %}
-      <iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/track={{ song.bandcamp_track_id }}/size=medium/bgcol=ffffff/linkcol=333333/transparent=true/" seamless></iframe>
-      {% elsif song.bandcamp_album_id %}
-      <iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album={{ song.bandcamp_album_id }}/size=medium/bgcol=ffffff/linkcol=333333/t=1/transparent=true/" seamless></iframe>
-      {% endif %}
-    {% endfor %}
-  </section>
-
-
-  <section class='gigs'>
-    <h2><a href='/gigs'>Next Gigs ▸</a></h2>
-    {% assign site_time = site.time | date: "%Y%m%d" %}
-    <ul class="dated_list">
-      {% for gig in site.categories.gigs reversed | limit: 3 %}
-      {% assign t = gig.date | date: "%Y%m%d" %}
-        {% if t >= site_time %}
-        {% include _gig.html %}
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </section>
-
-  <section class='posts'>
-    <h2><a href='/posts'>Posts ▸</a></h2>
-    {% for post in site.categories.posts | limit: 5 %}
-      <p>
-        <a href="{{ post.url }}">
-          <em>{{ post.title }}</em>, {{ post.date | date: "%d %b %Y") }}
-        </a>
-      </p>
-    {% endfor %}
-    <p><a href='/posts'>More ...</a></p>
-  </section>
-
-  <section class='nav'>
-    {% include nav.html %}
-  </section>
-
-</article>
+<blockquote>{{ site.bio }}</blockquote>

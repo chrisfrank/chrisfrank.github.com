@@ -1,24 +1,22 @@
-<nav class='sized'>
-  {% if page.url != "/index.html" %}
-  <a href="/">
-    <img src='/images/logo_notext.png' alt='The Nepotist' />
-  </a>
-  {% endif %}
-  {% if page.url == "/gigs/index.html" %}<span>Gigs</span>{% else %}
-    <a href="/gigs">Gigs</a>
-  {% endif %}
-  {% if page.url == "/posts/index.html" %}<span>Posts</span>{% else %}
-    <a href="/posts">Posts</a>
-  {% endif %}
-  {% if page.url == "/music/index.html" %}<span>Music</span>{% else %}
-    <a href="/music">Music</a>
-  {% endif %}
-  {% if page.url == "/videos/index.html" %}<span>Videos</span>{% else %}
-    <a href="/videos">Videos</a>
-  {% endif %}
-  <a href="http://thenepotist.tumblr.com">Tumblr</a>
-  <a href="http://facebook.com/thenepotist">Facebook</a>
-  {% if page.url == "/contact.html" %}<span>Contact</span>{% else %}
-    <a href="/contact.html">Contact</a>
-  {% endif %}
+<nav>
+  <ul class='sized'>
+    {% if page.url == "/about.html" %}<li><span>About</span></li>{% else %}
+      <li><a href="/about.html">About</a></li>
+    {% endif %}
+    {% if page.url == "/gigs/index.html" %}<li><span>Gigs</span></li>{% else %}
+      <li><a href="/gigs">Gigs</a></li>
+    {% endif %}
+    {% if page.url == "/music/index.html" %}<li><span>Music</span></li>{% else %}
+      <li><a href="/music">Music</a></li>
+    {% endif %}
+    {% if page.url == "/videos/index.html" %}<li><span>Videos</span></li>{% else %}
+      <li><a href="/videos">Videos</a></li>
+    {% endif %}
+    {% if page.url == "/posts/index.html" %}<li><span>Posts</span></li>{% else %}
+      <li><a href="/posts">Posts</a></li>
+    {% endif %}
+    {% if page.url == "/contact.html" %}<li><span>Contact</span></li>{% else %}
+      <li><a href="/contact.html">Contact</a></li>
+    {% endif %}
+  </ul>
 </nav>

@@ -1,27 +1,32 @@
 ---
 title: Contact
-layout: text
+layout: list
+banner: /images/contact.jpg
 ---
-<p>
-  <a href="/assets/press_photos/1.jpg">
-    <img src='/assets/press_photos/1_thumb.jpg' alt="The Nepotist" />
+<div class="row">
+  <div class="g4">
+    <h4>Press</h4>
+    <p>
+      Holly Garman<br />
+      HMG Public Relations<br />
+      <a href="mailto:hollygpr@gmail.com">hollygpr@gmail.com</a>
+    </p>
+  </div>
+  <div class="g4">
+    <h4>Booking, Questions, Etc</h4>
+    <p>
+      Chris Frank<br />
+      <a href="mailto:chris@thenepotist.com">chris@thenepotist.com</a><br />
+      646.543.4789
+    </p>
+  </div>
+  <div class="g4">    
+    <h4>What's your email?</h4>
+    {% include mailchimp.html %}
+  </div>
+</div>
+<div class="block">
+  <a href="/images/thenepotist.jpg">
+    <img src="/images/thenepotist-sm.jpg" alt="The Nepotist by Cheryl Dunn">
   </a>
-</p>
-<hr />
-<h4>Press</h4>
-<p>
-  Holly Garman<br />
-  HMG Public Relations<br />
-  <a href="mailto:hollygpr@gmail.com">hollygpr@gmail.com</a>
-</p>
-<hr />
-<h4>Booking, Questions, Etc</h4>
-<p>
-  Chris Frank<br />
-  <a href="mailto:chris@thenepotist.com">chris@thenepotist.com</a><br />
-  646.543.4789<br />
-  New York City<br />
-</p>
-<hr />
-<h4>What's your email?</h4>
-{% include mailchimp.html %}
+</div>

@@ -1,0 +1,54 @@
+#global_header {
+  max-width: 100%;
+  margin-bottom: $gutter/2;
+  text-align: center;
+  h1 {
+    margin: 0 auto;
+    padding-top: 1em;
+  }
+  img, h1 a {
+    width: 10em;
+    height: 10em;
+    display: block;
+    margin: 0 auto;
+    border-bottom: none;
+  }
+  img {
+    opacity: .9;
+  }
+  nav {
+    margin-bottom: $gutter/4;
+    .sized {
+      @include row();
+      margin-top: 1em;
+    }
+  }
+  nav li {
+    @include span-columns(2);
+  }
+  a.home { display: none; }
+}
+
+#global_footer {
+  border-top: 1px solid $white;
+  margin: $gutter;
+  padding-top: $gutter;
+  color: #aaa;
+  text-align: center;
+  li {
+    display: inline-block;
+    padding: 0 .25em;
+  }
+}
+
+#mc_embed_signup {
+  form {
+    @include row();
+  }
+  .email {
+    @include span_columns(9);
+  }
+  .submit {
+    @include span_columns(3);
+  }
+}

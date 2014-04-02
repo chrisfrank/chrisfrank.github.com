@@ -1,6 +1,7 @@
 ---
 title: Music
 layout: list
+banner: /images/music.jpg
 ---
 
 <ul class="mp3s">
@@ -8,12 +9,15 @@ layout: list
   <li>
   <div class='bandcamp'>
     {% if song.bandcamp_track_id %}
-    <iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/track={{ song.bandcamp_track_id }}/size=medium/bgcol=ffffff/linkcol=333333/transparent=true/" seamless></iframe>
+    
+    <iframe style="border: 0; width: 350px; height: 350px;" src="http://bandcamp.com/EmbeddedPlayer/track={{ song.bandcamp_track_id}}/size=large/bgcol=ffffff/linkcol=333333/minimal=true/transparent=true/" seamless></iframe>
+    
     {% elsif song.bandcamp_album_id %}
-    <iframe style="border: 0; width: 100%; height: 120px;" src="http://bandcamp.com/EmbeddedPlayer/album={{ song.bandcamp_album_id }}/size=medium/bgcol=ffffff/linkcol=333333/t=1/transparent=true/" seamless></iframe>
+    
+    <iframe style="border: 0; width: 350px; height: 350px;" src="http://bandcamp.com/EmbeddedPlayer/album={{ song.bandcamp_album_id}}/size=large/bgcol=ffffff/linkcol=333333/minimal=true/transparent=true/" seamless></iframe>
+    
     {% endif %}
   </div>
-    {{ song.content }}
   </li>
   {% endfor %}
 </ul>

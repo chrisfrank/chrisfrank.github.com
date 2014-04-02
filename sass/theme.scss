@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'akz';
+    src: url('/assets/fonts/akzmdcn-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  color: $black;
+  font-family: sans-serif;
+  line-height: 1.4;
+  font-size: 16px;
+  background-repeat: repeat-y;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1, h2, h3, h4, nav {
+  font-family: 'akz', 'arial narrow';
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+a {
+  color: $red;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+em {
+  font-weight: bold;
+}
+
+
+#global_header {
+  background-color: $black;
+  background-image: url(/images/heads.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 4px solid $black;
+  a {
+    border-bottom: none;
+    color: $white;
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
+  }
+  nav a, nav span {
+    font-size: 1.5em;
+    text-shadow: 0 0 8px black;
+    padding: .2em;
+  }
+  nav span {
+    background: $white;
+    text-shadow: none;
+    opacity: .9;
+  }
+}
+
+.headline {
+  font-family: 'akz', 'arial narrow';
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: $gutter/2;
+  h1 {
+    font-size: 3em;
+    letter-spacing: 0;
+  }
+}
+
+.gig {
+  a { color: $grey; }
+}
+
+ul.posts a.row {
+  color: $grey;
+  border-bottom: 1px solid $white;
+  &:hover {
+    background: $white;
+  }
+}
+
+::selection { background: $red; color: $white; }
+::-moz-selection { background: $red; color: $white; }
