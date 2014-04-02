@@ -373,7 +373,8 @@ blockquote {
 
 .article_content h2 {
   font-size: 2em;
-  margin-bottom: .5em; }
+  margin-bottom: .5em;
+  line-height: 1; }
 .article_content p {
   margin-bottom: 1em; }
 
