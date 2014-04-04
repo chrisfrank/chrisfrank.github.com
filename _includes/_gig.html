@@ -1,21 +1,23 @@
-{% if current_gig_year %}
-  {% assign gig_year = gig.date | date: "%Y" %}
-  {% if gig_year < current_gig_year %}
-  <li class="gig_year_break">
-    <h3>{{ gig_year }}</h3>
-    {% assign current_gig_year = gig_year %}
-  {% endif %}
-  </li>
-{% endif %}
-<li class="gig">
-  <a href="{{ gig.venue_link}}">
+<li class="gig row">
+  <div class="g2">
     <div class="calendar_date">
       <div class="calendar_month">{{ gig.date | date: "%b") }}</div>
       <div class="calendar_day">{{ gig.date | date: "%d" }}</div>
+      <h4 class="calendar_day_of_week">{{ gig.date | date: "%a" }}</h4>
     </div>
-    <div class="date_info">
-      <p>{{ gig.venue_name }}</p>
-      <p>{{ gig.venue_location }}</p>
   </div>
-  </a>
+  <div class="g8">
+    <h1>
+      <a href="{{ gig.venue_link}}">{{ gig.venue_name }} ▸</a>
+    </h1>
+    {% if gig.poster %}
+      <img src="{{ gig.poster }}">
+    {% endif %}
+    {{ gig.content }}
+  </div>
+  <div class="g2">
+    <p>{{ gig.venue_location }}</p>
+    <p>{{ gig.time }}</p>
+    {% if gig.map_link %}<p><a href="{{ gig.map_link }}">Map ▸</a></p>{% endif %}
+  </div>
 </li>

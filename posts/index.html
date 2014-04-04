@@ -5,8 +5,8 @@ banner: /images/posts.jpg
 ---
 <ul class="posts">
 {% for post in site.categories.posts %}
-  <li>
-    <a class="row" href="{{ post.url }}">
+  <li class="row">
+    <a href="{{ post.url }}">
       <div class="g3">
         {{ post.date | date: "%d %B %Y" }}
       </div>

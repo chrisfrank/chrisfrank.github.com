@@ -74,15 +74,21 @@ em {
 }
 
 .gig {
-  a { color: $grey; }
+  h1 a { color: $grey; }
 }
 
-ul.posts a.row {
-  color: $grey;
+ul.posts .row {
   border-bottom: 1px solid $white;
+  a { color: $grey; }
   &:hover {
     background: $white;
   }
+  &:last-child { border-bottom: none; }
+}
+
+.gigs .row {
+  border-bottom: 1px solid $white;
+  &:last-child { border-bottom: none; }
 }
 
 ::selection { background: $red; color: $white; }

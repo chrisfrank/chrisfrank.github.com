@@ -275,26 +275,12 @@ blockquote {
   height: 100%; }
 
 /* CALENDAR DATES */
-.gig {
-  font-size: .8em;
-  display: table; }
-  .gig a {
-    display: table-row; }
-  .gig a > div {
-    display: table-cell; }
-  .gig p {
-    margin-left: 5px; }
-
 .dated_list {
   overflow: auto;
   list-style: none; }
 
 .dated_list li {
   margin-bottom: 1em; }
-
-.dated_list .gig {
-  width: 33.33333333333%;
-  float: left; }
 
 .calendar_date {
   display: inline-block;
@@ -311,19 +297,6 @@ blockquote {
   font-weight: bold;
   font-size: 1.5em; }
 
-.gig_year_break {
-  border-top: 1px solid #aaa;
-  padding-top: 1em;
-  margin: 2em 0 0;
-  width: 100%;
-  display: block;
-  clear: both; }
-
-.gig_year_break:first-child {
-  border-top: none;
-  margin-top: 0;
-  padding-top: 0; }
-
 .calendar_date {
   background: #e5e6e8;
   color: #000; }
@@ -331,6 +304,9 @@ blockquote {
 .calendar_month {
   background: #ac4f4a;
   color: #e5e6e8; }
+
+.calendar_day_of_week {
+  background: white; }
 
 /* END CALENDAR DATES */
 .mp3s {
@@ -364,10 +340,10 @@ blockquote {
     height: 100% !important;
     width: 100% !important; }
 
-.posts h1 {
+.posts h1, .gigs h1 {
   font-size: 2em;
   line-height: 1; }
-.posts .row {
+.posts .row, .gigs .row {
   padding: 1em 0;
   display: block; }
 
@@ -511,14 +487,22 @@ em {
     font-size: 3em;
     letter-spacing: 0; }
 
-.gig a {
+.gig h1 a {
   color: #333334; }
 
-ul.posts a.row {
-  color: #333334;
+ul.posts .row {
   border-bottom: 1px solid #eeeeee; }
-  ul.posts a.row:hover {
+  ul.posts .row a {
+    color: #333334; }
+  ul.posts .row:hover {
     background: #eeeeee; }
+  ul.posts .row:last-child {
+    border-bottom: none; }
+
+.gigs .row {
+  border-bottom: 1px solid #eeeeee; }
+  .gigs .row:last-child {
+    border-bottom: none; }
 
 ::selection {
   background: #ac4f4a;

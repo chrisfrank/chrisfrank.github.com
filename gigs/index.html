@@ -3,10 +3,12 @@ title: Gigs
 layout: list
 banner: /images/gigs.jpg
 ---
-<ul class="dated_list">
-  {% assign current_gig_year = "2100" %}
-  {% for gig in site.categories.gigs %}
-    {% include _gig.html %}
+<ul class="gigs">
+  {% assign site_time = site.time | date: "%Y%m%d" %}
+  {% for gig in site.categories.gigs reversed %}
+  {% assign t = gig.date | date: "%Y%m%d" %}
+    {% if t >= site_time %}
+      {% include _gig.html %}
+    {% endif %}
   {% endfor %}
-  {% assign current_gig_year = nil %}
 </ul>
