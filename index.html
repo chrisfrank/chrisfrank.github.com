@@ -27,11 +27,15 @@ layout: list
 
 <section class='video'>
   <h2><a href='/videos'>Watch ▸</a></h2>
-  {% for video in site.categories.videos reversed | limit:1 %}
-    <div class='embedded_video'>
-      <iframe src="//www.youtube.com/embed/{{ video.youtube_id }}" frameborder=0 webkitAllowFullScreen mozallowfullscreen allowFullScreen seamless></iframe>
+  <div class="row">
+  {% for video in site.categories.videos | limit:2 %}
+    <div class='g6'>
+      <div class='embedded_video'>
+        <iframe src="//www.youtube.com/embed/{{ video.youtube_id }}" frameborder=0 webkitAllowFullScreen mozallowfullscreen allowFullScreen seamless></iframe>
+      </div>
     </div>
   {% endfor %}
+  </div>
 </section>
 
 <blockquote>{{ site.bio }}</blockquote>
