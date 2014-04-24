@@ -6,7 +6,7 @@
 }
 body {
   color: $black;
-  font-family: sans-serif;
+  font-family: 'avenir next', 'avenir', sans-serif;
   line-height: 1.4;
   font-size: 16px;
   background-repeat: repeat-y;
@@ -93,3 +93,11 @@ ul.posts .row {
 
 ::selection { background: $red; color: $white; }
 ::-moz-selection { background: $red; color: $white; }
+
+.excerpt {
+  letter-spacing: 0;
+  line-height: 1.4;
+}
+.centered {
+  text-align: center;
+}

@@ -24,7 +24,7 @@
     }
   }
   nav li {
-    @include span-columns(2);
+    @include span-columns(1.5);
   }
   a.home { display: none; }
 }

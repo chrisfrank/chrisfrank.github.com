@@ -357,6 +357,9 @@ blockquote {
 .category_pagination a {
   font-size: .75em; }
 
+.align-right {
+  text-align: right; }
+
 #global_header {
   max-width: 100%;
   margin-bottom: 2em;
@@ -387,7 +390,7 @@ blockquote {
     display: block;
     float: left;
     margin-right: 4.21809%;
-    width: 13.15159%; }
+    width: 8.80917%; }
     #global_header nav li:last-child {
       margin-right: 0; }
   #global_header a.home {
@@ -433,7 +436,7 @@ blockquote {
   font-style: normal; }
 body {
   color: #232323;
-  font-family: sans-serif;
+  font-family: 'avenir next', 'avenir', sans-serif;
   line-height: 1.4;
   font-size: 16px;
   background-repeat: repeat-y;
@@ -511,3 +514,10 @@ ul.posts .row {
 ::-moz-selection {
   background: #ac4f4a;
   color: #eeeeee; }
+
+.excerpt {
+  letter-spacing: 0;
+  line-height: 1.4; }
+
+.centered {
+  text-align: center; }

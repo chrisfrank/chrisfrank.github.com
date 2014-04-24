@@ -1,0 +1,22 @@
+---
+title: Posts
+layout: list
+banner: /images/press-banner.jpg
+---
+<ul class="posts">
+{% for post in site.categories.press %}
+  <li class="row">
+    <a href="{{ post.link }}">
+      <div class="g3">
+        {{ post.date | date: "%d %B" }}
+      </div>
+      <div class="g6">
+        <h1 class='excerpt'>&ldquo;{{ post.quote }}&rdquo;</h1>
+      </div>
+    </a>
+    <div class="g3">
+      <h2 class='align-right'>{{ post.title }}</h2>
+    </div>
+  </li>
+{% endfor %}
+</ul>

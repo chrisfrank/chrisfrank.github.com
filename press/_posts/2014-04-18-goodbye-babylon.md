@@ -1,0 +1,7 @@
+---
+title: Goodbye Babylon
+link: http://goodbyebabylon.com/wordpress2/2014/04/18/single-of-the-week-premiere-the-nepotist-trust/
+quote: able to move anyone who has a beating heart and even a little bit of love
+---
+
+If you get a tingle in your bones when listening to Ithaca, NY’s The Nepotist, it’s for good reason. The trio consisting of brothers Chris and Hayden Frank, and drummer Jacob Colin Cohen are making some damn fine music that is unquestionably authentic. ‘Trust’ is a new track with an old soul, leading off with a lick that is straight from the Buddy Guy school of the blues, before gliding into a slide riff in the verse that is genius in its simplicity and effectiveness. In fact, that Chicago brand of soul and blues is really the foundation of the church where The Nepotist has “found religion”. But – make no mistake, as Chris Frank sings – this music is the epitome of crossover, surely able to move anyone who has a beating heart and even a little bit of love. Like contemporaries Wild Adriatic and Caught a Ghost, The Nepotist have the sort of multi-genre appeal and know how that craftily blends the smooth grooves of soul and R&B, with the grittiness of ’60s and ’70s rock & roll. Their video EP will be dropping in the next week, so open up your ears and clean out your eyes.
