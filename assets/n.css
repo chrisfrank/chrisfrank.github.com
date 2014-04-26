@@ -346,6 +346,8 @@ blockquote {
 .posts .row, .gigs .row {
   padding: 1em 0;
   display: block; }
+  .posts .row:first-child, .gigs .row:first-child {
+    margin-top: -1em; }
 
 .article_content h2 {
   font-size: 2em;
@@ -436,7 +438,7 @@ blockquote {
   font-style: normal; }
 body {
   color: #232323;
-  font-family: 'avenir next', 'avenir', sans-serif;
+  font-family: georgia, serif;
   line-height: 1.4;
   font-size: 16px;
   background-repeat: repeat-y;

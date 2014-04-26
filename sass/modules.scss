@@ -134,6 +134,9 @@
   .row {
     padding: $gutter/4 0;
     display: block;
+    &:first-child {
+      margin-top: -$gutter/4;
+    }
   }
 }
 
