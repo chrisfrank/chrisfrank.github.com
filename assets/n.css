@@ -340,6 +340,26 @@ figcaption {
     .posts .row:first-child, .gigs .row:first-child {
       margin-top: -1em; }
 
+.videos {
+  margin-bottom: 4em;
+  *zoom: 1; }
+  .videos:before, .videos:after {
+    content: " ";
+    display: table; }
+  .videos:after {
+    clear: both; }
+  .videos li {
+    display: block;
+    float: left;
+    margin-right: 4.21809%;
+    width: 47.89095%; }
+    .videos li:last-child {
+      margin-right: 0; }
+    .videos li:nth-child(2n) {
+      margin-right: 0; }
+    .videos li:nth-child(2n+1) {
+      clear: left; }
+
 .article_content h2 {
   font-size: 2em;
   margin-bottom: .5em;

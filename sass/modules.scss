@@ -136,6 +136,15 @@
   }
 }
 
+.videos {
+  margin-bottom: $gutter;
+  @include clearfix;
+  li {
+    @include span_columns(6);
+    @include omega(2n);
+  }
+}
+
 .article_content {
   h2 {
     font-size: 2em;
