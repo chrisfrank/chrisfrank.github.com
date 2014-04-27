@@ -30,14 +30,13 @@
 }
 
 #global_footer {
-  border-top: 1px solid $white;
-  margin: $gutter;
-  padding-top: $gutter;
-  color: #aaa;
-  text-align: center;
+  padding: $gutter/2 0;
   li {
     display: inline-block;
     padding: 0 .25em;
+  }
+  nav {
+    margin-bottom: $gutter/4;
   }
 }
 

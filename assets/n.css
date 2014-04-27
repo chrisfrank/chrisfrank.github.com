@@ -74,23 +74,6 @@ blockquote {
   text-align: center;
   margin: 4em auto; }
 
-.newspaper {
-  *zoom: 1;
-  display: block; }
-  .newspaper:before, .newspaper:after {
-    content: " ";
-    display: table; }
-  .newspaper:after {
-    clear: both; }
-  .newspaper section {
-    margin-bottom: 4em;
-    display: block;
-    float: left;
-    margin-right: 4.21809%;
-    width: 47.89095%; }
-    .newspaper section:last-child {
-      margin-right: 0; }
-
 .outer_container, .sized {
   *zoom: 1;
   max-width: 68em;
@@ -113,6 +96,8 @@ blockquote {
     display: table; }
   .row:after {
     clear: both; }
+  .row section {
+    margin-bottom: 4em; }
 
 .g1, .g2, .g3, .g4, .g5, .g6, .g7, .g8, .g9, .g10, .g11, .g12 {
   min-height: 1px;
@@ -399,14 +384,12 @@ blockquote {
     display: none; }
 
 #global_footer {
-  border-top: 1px solid #eeeeee;
-  margin: 4em;
-  padding-top: 4em;
-  color: #aaa;
-  text-align: center; }
+  padding: 2em 0; }
   #global_footer li {
     display: inline-block;
     padding: 0 .25em; }
+  #global_footer nav {
+    margin-bottom: 1em; }
 
 #mc_embed_signup form {
   *zoom: 1;
@@ -449,7 +432,15 @@ body {
 h1, h2, h3, h4, nav {
   font-family: 'akz', 'arial narrow';
   text-transform: uppercase;
-  letter-spacing: .1em; }
+  letter-spacing: .1em;
+  line-height: 1; }
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em; }
+
+h3 {
+  font-size: 1.5em; }
 
 a {
   color: #ac4f4a;
@@ -459,6 +450,27 @@ a {
 
 em {
   font-weight: bold; }
+
+input {
+  -webkit-appearance: none;
+  border: none;
+  font-size: 1.5em;
+  line-height: 1;
+  border-bottom: 2px solid;
+  font-family: 'akz', 'arial narrow', sans-serif;
+  text-transform: uppercase; }
+  input[type=submit] {
+    border: 2px solid;
+    background: white;
+    cursor: pointer; }
+    input[type=submit]:hover {
+      background: black;
+      color: white;
+      border-color: black; }
+    input[type=submit]:active {
+      background: #ac4f4a; }
+  input:focus, input:active {
+    outline: none; }
 
 #global_header {
   background-color: #232323;
@@ -481,6 +493,16 @@ em {
     background: #eeeeee;
     text-shadow: none;
     opacity: .9; }
+
+#global_footer {
+  border-top: 4px solid #232323;
+  text-align: center; }
+  #global_footer nav {
+    color: #ac4f4a; }
+  #global_footer a {
+    color: #232323; }
+  #global_footer p {
+    font-size: smaller; }
 
 .headline {
   font-family: 'akz', 'arial narrow';

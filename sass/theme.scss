@@ -19,6 +19,16 @@ h1, h2, h3, h4, nav {
   font-family: 'akz', 'arial narrow';
   text-transform: uppercase;
   letter-spacing: .1em;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: $gutter/8;
+}
+
+h3 {
+  font-size: 1.5em;
 }
 
 a {
@@ -31,6 +41,32 @@ a {
 
 em {
   font-weight: bold;
+}
+
+input {
+  -webkit-appearance: none;
+  border: none;
+  font-size: 1.5em;
+  line-height: 1;
+  border-bottom: 2px solid;
+  font-family: 'akz', 'arial narrow', sans-serif;
+  text-transform: uppercase;
+  &[type=submit] {
+    border: 2px solid;
+    background: white;
+    cursor: pointer;
+    &:hover {
+      background: black;
+      color: white;
+      border-color: black;
+    }
+    &:active {
+      background: $red;
+    }
+  }
+  &:focus, &:active {
+    outline: none;
+  }
 }
 
 
@@ -61,6 +97,15 @@ em {
   }
 }
 
+#global_footer {
+  border-top: 4px solid $black;
+  text-align: center;
+  nav { color: $red; }
+  a { color: $black; }
+  p {
+    font-size: smaller;
+  }
+}
 .headline {
   font-family: 'akz', 'arial narrow';
   text-transform: uppercase;

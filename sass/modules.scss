@@ -1,11 +1,3 @@
-.newspaper {
-  @include row();
-  section {
-    margin-bottom: $gutter;
-    @include span_columns(6);
-  }
-}
-
 .outer_container, .sized {
   @include outer_container;
   padding-left: $gutter/4;
@@ -15,6 +7,9 @@
   overflow: hidden;
   text-overflow: ellipsis;
   @include clearfix;
+  section {
+    margin-bottom: $gutter;
+  }
 }
 .g1, .g2, .g3, .g4, .g5, .g6, .g7, .g8, .g9, .g10, .g11, .g12 {
   min-height: 1px;

@@ -1,41 +1,37 @@
 ---
 layout: list
 ---
-<div class="newspaper">
-  <section>
-    <header><h2><a href='/gigs'>Next Gigs ▸</a></h2></header>
-    <article>
-      {% assign site_time = site.time | date: "%Y%m%d" %}
-        {% for gig in site.categories.gigs reversed | limit: 3 %}
-        {% assign t = gig.date | date: "%Y%m%d" %}
-          {% if t >= site_time %}
-          <div>
-            <em>{{ gig.date | date: "%b %d") }}:</em>
-            {{ gig.venue_name }} -
-            {{ gig.venue_location }}
-          </div>
-          {% endif %}
-        {% endfor %}
-    </article>
-  </section>
-  <section>
-    <header><h2>Keep in Touch</h2></header>
-    <article>{% include mailchimp.html %}</article>
-  </section>
-
-</div>
-
-<section class='video'>
-  <h2><a href='/videos'>Watch ▸</a></h2>
-  <div class="row">
-  {% for video in site.categories.videos | limit:2 %}
-    <div class='g6'>
-      <div class='embedded_video'>
-        <iframe src="//www.youtube.com/embed/{{ video.youtube_id }}" frameborder=0 webkitAllowFullScreen mozallowfullscreen allowFullScreen seamless></iframe>
-      </div>
-    </div>
-  {% endfor %}
+<div class="row">
+  <div class="g8">
+    <section class='video'>
+      <h2>Watch &ldquo;TRUST&rdquo;, loudly. </h2>
+      {% for video in site.categories.videos | limit:1 %}
+        <div class='embedded_video'>
+          <iframe src="//www.youtube.com/embed/{{ video.youtube_id }}" frameborder=0 webkitAllowFullScreen mozallowfullscreen allowFullScreen seamless></iframe>
+        </div>
+      {% endfor %}
+    </section>
   </div>
-</section>
-
-<blockquote>{{ site.bio }}</blockquote>
+  <div class="g4">
+    <section>
+      <header><h2>Join the list</h2></header>
+      <article>{% include mailchimp.html %}</article>
+    </section>
+    <section>
+      <header><h2><a href='/gigs'>Come to a show ▸</a></h2></header>
+      <article>
+        {% assign site_time = site.time | date: "%Y%m%d" %}
+          {% for gig in site.categories.gigs reversed | limit: 3 %}
+          {% assign t = gig.date | date: "%Y%m%d" %}
+            {% if t >= site_time %}
+            <div>
+              <em>{{ gig.date | date: "%b %d") }}:</em>
+              {{ gig.venue_name }} -
+              {{ gig.venue_location }}
+            </div>
+            {% endif %}
+          {% endfor %}
+      </article>
+    </section>
+  </div>
+</div>
