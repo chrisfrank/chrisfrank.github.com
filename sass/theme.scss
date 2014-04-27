@@ -69,6 +69,13 @@ input {
   }
 }
 
+hr {
+  margin: $gutter auto;
+  height: 2px;
+  border: none;
+  background: $black;
+}
+
 
 #global_header {
   background-color: $black;
@@ -123,7 +130,7 @@ input {
 }
 
 ul.posts .row {
-  border-bottom: 1px solid $white;
+  border-bottom: 2px solid $black;
   a { color: $grey; }
   &:hover {
     background: $white;
@@ -132,7 +139,7 @@ ul.posts .row {
 }
 
 .gigs .row {
-  border-bottom: 1px solid $white;
+  border-bottom: 2px solid $black;
   &:last-child { border-bottom: none; }
 }
 
@@ -145,4 +152,7 @@ ul.posts .row {
 }
 .centered {
   text-align: center;
+}
+.bordered {
+  border: 2px solid $black;
 }
