@@ -7,9 +7,9 @@ layout: list
     <section class='video'>
       <h2>Watch &ldquo;TRUST&rdquo; loudly</h2>
       {% for video in site.categories.videos | limit:1 %}
-        <div class='embedded_video'>
-          <iframe src="//www.youtube.com/embed/{{ video.youtube_id }}" frameborder=0 webkitAllowFullScreen mozallowfullscreen allowFullScreen seamless></iframe>
-        </div>
+        <a class='embedded_video' href='http://www.youtube.com/watch?v={{ video.youtube_id }}'>
+          <img src="{{ video.poster }}" alt=" {{ video.title }}" />
+        </a>
       {% endfor %}
     </section>
   </div>

@@ -3,6 +3,10 @@
   <p class='sized'>Copyright &copy; {{ site.time | date: "%Y"}} <a href="/">The Nepotist</a></p>
 </div>
 
+<script src="/assets/nvid.js?v{{ site.time | date: '%m%d%y%H%M%S' }}"></script>
+<script>
+  new nvid(document.querySelectorAll('a.embedded_video'))
+</script>
 <script>
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-29161956-1']);

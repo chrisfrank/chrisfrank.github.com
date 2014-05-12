@@ -9,7 +9,13 @@ banner: /images/videos.jpg
   <li>
     <h3>{{ video.title }}</h3>
     <div class='embedded_video'>
-      <iframe src="//www.youtube.com/embed/{{ video.youtube_id }}" frameborder=0 webkitAllowFullScreen mozallowfullscreen allowFullScreen seamless></iframe>
+      {% if video.poster %}
+        <a class='embedded_video' href='http://www.youtube.com/watch?v={{ video.youtube_id }}'>
+          <img src="{{ video.poster }}" alt=" {{ video.title }}" />
+        </a>
+      {% else %}
+        <iframe src="//www.youtube.com/embed/{{ video.youtube_id }}" frameborder=0 webkitAllowFullScreen mozallowfullscreen allowFullScreen seamless></iframe>
+      {% endif %}
     </div>
   </li>
   {% endfor %}

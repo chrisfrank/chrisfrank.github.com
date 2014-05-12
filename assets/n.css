@@ -92,7 +92,6 @@ figcaption {
     clear: both; }
 
 .row {
-  overflow: hidden;
   text-overflow: ellipsis;
   *zoom: 1; }
   .row:before, .row:after {
@@ -104,8 +103,7 @@ figcaption {
     margin-bottom: 4em; }
 
 .g1, .g2, .g3, .g4, .g5, .g6, .g7, .g8, .g9, .g10, .g11, .g12 {
-  min-height: 1px;
-  overflow: hidden; }
+  min-height: 1px; }
 
 .block {
   margin: 2em auto;
@@ -249,19 +247,7 @@ figcaption {
   margin-left: 104.21809%; }
 
 .embedded_video {
-  width: 100%;
-  height: 0;
-  padding-bottom: 56.25%;
-  position: relative;
-  margin-bottom: 1.4em;
-  background-color: #eee; }
-
-.embedded_video iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
+  display: block; }
 
 /* CALENDAR DATES */
 .dated_list {
@@ -341,7 +327,6 @@ figcaption {
       margin-top: -1em; }
 
 .videos {
-  margin-bottom: 4em;
   *zoom: 1; }
   .videos:before, .videos:after {
     content: " ";
@@ -352,13 +337,16 @@ figcaption {
     display: block;
     float: left;
     margin-right: 4.21809%;
-    width: 47.89095%; }
+    width: 47.89095%;
+    margin-bottom: 4em; }
     .videos li:last-child {
       margin-right: 0; }
     .videos li:nth-child(2n) {
       margin-right: 0; }
     .videos li:nth-child(2n+1) {
       clear: left; }
+    .videos li h3 {
+      margin-bottom: .2em; }
 
 .article_content h2 {
   font-size: 2em;
@@ -580,3 +568,6 @@ ul.posts .row {
 
 .bordered {
   border: 2px solid #232323; }
+
+.embedded_video {
+  outline: 2px solid #232323; }
