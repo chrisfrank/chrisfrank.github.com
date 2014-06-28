@@ -22,7 +22,7 @@ layout: list
       <header><h2><a href='/gigs'>Come to a show ▸</a></h2></header>
       <article>
         {% assign site_time = site.time | date: "%Y%m%d" %}
-          {% for gig in site.categories.gigs reversed | limit: 3 %}
+          {% for gig in site.categories.gigs reversed %}
           {% assign t = gig.date | date: "%Y%m%d" %}
             {% if t >= site_time %}
             <div>
