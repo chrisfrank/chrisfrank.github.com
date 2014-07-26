@@ -428,6 +428,15 @@ figcaption {
   #mc_embed_signup .submit:last-child {
     margin-right: 0; }
 
+#footer_social_links a {
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+  padding: 12px; }
+#footer_social_links img {
+  width: 24px;
+  height: 24px; }
+
 @font-face {
   font-family: 'akz';
   src: url("/assets/fonts/akzmdcn-webfont.woff") format("woff");

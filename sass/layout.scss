@@ -51,3 +51,16 @@
     @include span_columns(3);
   }
 }
+
+#footer_social_links {
+  a {
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+    padding: 12px;
+  }
+  img {
+    width: 24px;
+    height: 24px;
+  }
+}
