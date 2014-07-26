@@ -1,0 +1,12 @@
+Go to black
+Posts on home page
+double-sidebar ala Koi Vinh
+Simplify nav to:
+  - Home
+  - About
+  - Gigs
+  - Music
+  - Videos
+  - Photos
+Add footer links to iTunes and Spotify
+
