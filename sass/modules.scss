@@ -113,8 +113,8 @@
     line-height: 1;
   }
   .row {
-    padding: $gutter/4 0;
     display: block;
+    padding: $gutter/4 0;
     &:first-child {
       margin-top: -$gutter/4;
     }

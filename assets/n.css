@@ -321,8 +321,8 @@ figcaption {
     font-size: 2em;
     line-height: 1; }
   .posts .row, .gigs .row {
-    padding: 1em 0;
-    display: block; }
+    display: block;
+    padding: 1em 0; }
     .posts .row:first-child, .gigs .row:first-child {
       margin-top: -1em; }
 
@@ -444,7 +444,7 @@ figcaption {
   font-style: normal; }
 body {
   color: #232323;
-  font-family: georgia, serif;
+  font-family: 'helvetica neue', helvetica, sans-serif;
   line-height: 1.4;
   font-size: 16px;
   background-repeat: repeat-y;
