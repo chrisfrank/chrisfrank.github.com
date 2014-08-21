@@ -1,6 +1,7 @@
 Go to black
 Posts on home page
 double-sidebar ala Koi Vinh
+simple animations
 Simplify nav to:
   - Home
   - About
