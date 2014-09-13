@@ -391,7 +391,7 @@ figcaption {
     display: block;
     float: left;
     margin-right: 4.21809%;
-    width: 8.80917%; }
+    width: 10.66773%; }
     #global_header nav li:last-child {
       margin-right: 0; }
   #global_header a.home {
@@ -503,7 +503,6 @@ hr {
 
 #global_header {
   background-color: #232323;
-  background-image: url(/images/heads.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
