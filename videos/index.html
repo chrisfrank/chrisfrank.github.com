@@ -7,7 +7,7 @@ banner: /images/videos.jpg
 <ul class="videos">
   {% for video in site.categories.videos %}
   <li>
-    <h3>{{ video.title }}</h3>
+    <h3><a href="{{ video.url }}">{{ video.title }}</a></h3>
     <div class='embedded_video'>
       {% if video.poster %}
         <a class='embedded_video' href='http://www.youtube.com/watch?v={{ video.youtube_id }}'>

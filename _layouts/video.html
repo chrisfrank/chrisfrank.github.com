@@ -1,0 +1,19 @@
+{% include header.html %}
+<div class='row'>
+  <div class='g3'></div>
+  <div class="g6">
+    <section class='video'>
+      <h2>{{ page.title }}</h2>
+      <a class='embedded_video' href='http://www.youtube.com/watch?v={{ page.youtube_id }}'>
+        <img src="{{ page.poster }}" alt=" {{ page.title }}" />
+      </a>
+    </section>
+    <section>
+      <div class='article_content'>
+        {{ content }}
+      </div>
+    </section>
+  </div>
+</div>
+{% include footer.html %}
+
