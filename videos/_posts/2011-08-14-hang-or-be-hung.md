@@ -3,6 +3,7 @@ title: Hang or be Hung
 youtube_id: wUEYPAP4JTA
 poster: /assets/video/hang.jpg
 layout: video
+permalink: /videos/hang.html
 ---
 
 Some love is holy, some love is hot  
